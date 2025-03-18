@@ -1,3 +1,5 @@
 ollama 
 redis 
 numpy
+pymupdf 
+sentence-transformers

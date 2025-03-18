@@ -8,7 +8,7 @@ import os
 import fitz
 
 # Initialize Redis connection
-redis_client = redis.Redis(host="localhost", port=6380, db=0)
+redis_client = redis.Redis(host="localhost", port=6379, db=0)
 
 VECTOR_DIM = 768
 INDEX_NAME = "embedding_index"
@@ -130,7 +130,7 @@ def main():
     clear_redis_store()
     create_hnsw_index()
 
-    process_pdfs("../data/")
+    process_pdfs("dataw")
     print("\n---Done processing PDFs---\n")
     query_redis("What is the capital of France?")
 
