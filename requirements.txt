@@ -3,3 +3,5 @@ redis
 numpy
 pymupdf 
 sentence-transformers
+pgvector
+psycopg2
