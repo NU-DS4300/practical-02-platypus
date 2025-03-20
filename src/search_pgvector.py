@@ -26,8 +26,8 @@ def get_embedding(text: str, model: str = "nomic-embed-text") -> list:
     response = ollama.embeddings(model=model, prompt=text)
     return response["embedding"]
 
-def search_embeddings(query, top_k=5):
-    query_embedding = get_embedding(query)
+def search_embeddings(query, model="nomic-embed-text", top_k=5):
+    query_embedding = get_embedding(query, model=model)
     
     try:
         # Add ::vector cast to the parameter
@@ -91,7 +91,9 @@ def interactive_search():
         if query.lower() == "exit":
             break
         
-        context_results = search_embeddings(query)
+        models = ["nomic-embed-text", "all-minilm", "mxbai-embed-large"]
+
+        context_results = search_embeddings(query, model=models[1])
         response = generate_rag_response(query, context_results)
         
         print("\n--- Response ---")
