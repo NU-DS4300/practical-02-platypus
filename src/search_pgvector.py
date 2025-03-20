@@ -93,7 +93,7 @@ def interactive_search():
         
         models = ["nomic-embed-text", "all-minilm", "mxbai-embed-large"]
 
-        context_results = search_embeddings(query, model=models[1])
+        context_results = search_embeddings(query, model=models[0])
         response = generate_rag_response(query, context_results)
         
         print("\n--- Response ---")
