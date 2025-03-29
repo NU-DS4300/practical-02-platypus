@@ -71,7 +71,7 @@ def process_pdfs(data_dir):
             text_by_page = extract_text_from_pdf(pdf_path)
             
             for page_num, text in text_by_page:
-                chunks = split_text_into_chunks(text)
+                chunks = split_text_into_chunks(text, chunk_size=8000, overlap=100)
                 
                 for chunk in chunks:
                     embedding = get_embedding(chunk)

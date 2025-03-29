@@ -61,7 +61,7 @@ def store_embedding(file: str, page: str, chunk: str, embedding: list):
             ).tobytes(),  # Store as byte array
         },
     )
-    print(f"Stored embedding for: {chunk}")
+    print(f"Stored embedding for: {key}")
 
 
 # extract the text from a PDF by page
@@ -93,7 +93,7 @@ def process_pdfs(data_dir):
             pdf_path = os.path.join(data_dir, file_name)
             text_by_page = extract_text_from_pdf(pdf_path)
             for page_num, text in text_by_page:
-                chunks = split_text_into_chunks(text)
+                chunks = split_text_into_chunks(text, chunk_size=8000, overlap=100)
                 # print(f"  Chunks: {chunks}")
                 for chunk_index, chunk in enumerate(chunks):
                     # embedding = calculate_embedding(chunk)
@@ -130,7 +130,7 @@ def main():
     clear_redis_store()
     create_hnsw_index()
 
-    process_pdfs("dataw")
+    process_pdfs("data")
     print("\n---Done processing PDFs---\n")
     query_redis("What is the capital of France?")
 

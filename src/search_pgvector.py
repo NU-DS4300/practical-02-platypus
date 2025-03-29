@@ -77,7 +77,7 @@ Query: {query}
 Answer:"""
 
     response = ollama.chat(
-        model="mistral:latest", 
+        model="smollm:360m", 
         messages=[{"role": "user", "content": prompt}]
     )
     return response["message"]["content"]

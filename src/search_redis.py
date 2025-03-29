@@ -27,7 +27,7 @@ def get_embedding(text: str, model: str = "nomic-embed-text") -> list:
     return response["embedding"]
 
 
-def search_embeddings(query, top_k=3):
+def search_embeddings(query, top_k=5):
 
     query_embedding = get_embedding(query)
 
@@ -89,9 +89,9 @@ def generate_rag_response(query, context_results):
     print(f"context_str: {context_str}")
 
     # Construct prompt with context
-    prompt = f"""You are a helpful AI assistant. 
+    prompt = f"""You are an expert data engineer with a deep understanding of relational databases and NoSQL databases, including the relational model as well as Redis, Neo4j, Mongo. You are also an expert in AWS as a service. 
     Use the following context to answer the query as accurately as possible. If the context is 
-    not relevant to the query, say 'I don't know'.
+    not relevant to the query, say that, then answer to the best of your ability anyways.
 
 Context:
 {context_str}
@@ -102,7 +102,7 @@ Answer:"""
 
     # Generate response using Ollama
     response = ollama.chat(
-        model="mistral:latest", messages=[{"role": "user", "content": prompt}]
+        model="deepseek-r1:1.5b", messages=[{"role": "user", "content": prompt}]
     )
 
     return response["message"]["content"]
