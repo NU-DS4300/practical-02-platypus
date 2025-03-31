@@ -1,10 +1,17 @@
 ## DS 4300 Example - from docs
+import numpy as np
 import utils
 import redis
-import numpy as np
+from config import (
+    VECTOR_DIM, 
+    DOC_PREFIX, 
+    INDEX_NAME, 
+    REDIS_DISTANCE_METRIC, 
+    get_redis_client
+)
 
-
-
+# Initialize Redis client
+redis_client = get_redis_client()
 
 # used to clear the redis vector store
 def clear_redis_store():
@@ -51,16 +58,10 @@ def pipeline_redis(chunk_size: int = 8000, overlap: int = 100, embedding_model: 
     clear_redis_store()
     create_hnsw_index()
     to_store = utils.process_pdfs("data", chunk_size=chunk_size, overlap=overlap, embedding_model=embedding_model)
-    store_embedding_redis(file=to_store[0], page=to_store[1], chunk=to_store[2], embedding=to_store[3])
+    for file, page, chunk, embedding in to_store:
+        store_embedding_redis(file=file, page=page, chunk=chunk, embedding=embedding)
     print("\n---Done processing PDFs---\n")
 
 
 if __name__ == "__main__":
-    # Initialize Redis connection
-    redis_client = redis.Redis(host="localhost", port=6379, db=0)
-
-    VECTOR_DIM = 768
-    INDEX_NAME = "embedding_index"
-    DOC_PREFIX = "doc:"
-    REDIS_DISTANCE_METRIC = "COSINE"
     pipeline_redis()

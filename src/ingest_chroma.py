@@ -1,16 +1,24 @@
 import chromadb
 import utils
+from config import (
+    VECTOR_DIM, 
+    COLLECTION_NAME, 
+    get_chroma_client
+)
+
+# Initialize ChromaDB client
+chroma_client, collection = get_chroma_client()
 
 # Clear existing ChromaDB collection
-def clear_chroma_store(chroma_client):
+def clear_chroma_store(chroma_client, collection):
     print("Clearing existing ChromaDB store...")
     chroma_client.delete_collection(name=COLLECTION_NAME)
-    global collection
     collection = chroma_client.get_or_create_collection(name=COLLECTION_NAME)
     print("ChromaDB store cleared.")
+    return collection
 
 # Store the embedding in ChromaDB
-def store_embedding_chroma(file: str, page: int, chunk: str, embedding: list):
+def store_embedding_chroma(collection, file: str, page: int, chunk: str, embedding: list):
     """Stores chunk embeddings in ChromaDB."""
     doc_id = f"{file}_page_{page}_chunk_{hash(chunk)}"
     
@@ -24,19 +32,14 @@ def store_embedding_chroma(file: str, page: int, chunk: str, embedding: list):
 
 
 # Main function to run the pipeline
-def pipeline_chroma(chroma_client, chunk_size: int = 8000, overlap: int = 100, embedding_model: str = "nomic-embed-text"):
-    clear_chroma_store(chroma_client)
+def pipeline_chroma(chroma_client, collection, chunk_size: int = 8000, overlap: int = 100, embedding_model: str = "nomic-embed-text"):
+    collection = clear_chroma_store(chroma_client, collection)
     to_store = utils.process_pdfs("data", chunk_size=chunk_size, overlap=overlap, embedding_model=embedding_model)
-    store_embedding_chroma(file=to_store[0], page=to_store[1], chunk=to_store[2], embedding=to_store[3])
+    for file, page, chunk, embedding in to_store:
+        store_embedding_chroma(collection, file=file, page=page, chunk=chunk, embedding=embedding)
     print("\n---Done processing PDFs---\n")
+    return collection
 
 
 if __name__ == "__main__":
-    
-    VECTOR_DIM = 768
-    COLLECTION_NAME = "ds4300_embeddings"
-
-    # Initialize ChromaDB client
-    chroma_client = chromadb.PersistentClient(path="./chroma_db")  # Stores data persistently
-    collection = chroma_client.get_or_create_collection(name=COLLECTION_NAME)
-    pipeline_chroma(chroma_client)
+    pipeline_chroma()
