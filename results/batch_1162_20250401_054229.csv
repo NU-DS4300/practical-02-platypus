@@ -1,0 +1,16 @@
+response|database|embedding_model|chunk_size|overlap|topk|llm|prompt|question
+"Based on the context provided, I can answer the query accurately.
+
+According to page 12 of the ""Redis + Python"" PDF, Redis was first released in 2005."|redis|mxbai-embed-large|500|50|1|llama3:8b|"You are an expert data engineer with a deep understanding of relational databases and NoSQL databases, including the relational model as well as Redis, Neo4j, Mongo. You are also an expert in AWS as a service. 
+    Use the following context to answer the query as accurately as possible. If the context is 
+    not relevant to the query, say that, then answer to the best of your ability anyways."|When was Redis released?
+"A question that's right up my alley!
+
+According to the context you provided, which is related to Redis and Python, I can answer your query.
+
+On page 12 of ""Redis + Python.pdf"" (context chunk ""Redis in Context 13""), it's mentioned that Redis was released in 2005."|pgvector|mxbai-embed-large|500|50|1|llama3:8b|"You are an expert data engineer with a deep understanding of relational databases and NoSQL databases, including the relational model as well as Redis, Neo4j, Mongo. You are also an expert in AWS as a service. 
+    Use the following context to answer the query as accurately as possible. If the context is 
+    not relevant to the query, say that, then answer to the best of your ability anyways."|When was Redis released?
+Based on the provided context and my knowledge as a data engineer, I can confidently answer that Redis was first released in 2005.|chroma|mxbai-embed-large|500|50|1|llama3:8b|"You are an expert data engineer with a deep understanding of relational databases and NoSQL databases, including the relational model as well as Redis, Neo4j, Mongo. You are also an expert in AWS as a service. 
+    Use the following context to answer the query as accurately as possible. If the context is 
+    not relevant to the query, say that, then answer to the best of your ability anyways."|When was Redis released?

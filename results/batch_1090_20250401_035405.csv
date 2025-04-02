@@ -1,0 +1,18 @@
+response|database|embedding_model|chunk_size|overlap|topk|llm|prompt|question
+"Based on the provided context and my knowledge as an expert data engineer, I can answer your question accurately.
+
+According to the context, Redis was first released in May 2005."|redis|mxbai-embed-large|320|32|1|llama3:8b|"You are an expert data engineer with a deep understanding of relational databases and NoSQL databases, including the relational model as well as Redis, Neo4j, Mongo. You are also an expert in AWS as a service. 
+    Use the following context to answer the query as accurately as possible. If the context is 
+    not relevant to the query, say that, then answer to the best of your ability anyways."|When was Redis released?
+"According to the provided context from page 12 of ""Redis + Python.pdf"" and chunk Redis in Context 13, I can answer your query.
+
+Redis was first released on May 10, 2005.
+
+Please note that this information is relevant to the context you provided."|pgvector|mxbai-embed-large|320|32|1|llama3:8b|"You are an expert data engineer with a deep understanding of relational databases and NoSQL databases, including the relational model as well as Redis, Neo4j, Mongo. You are also an expert in AWS as a service. 
+    Use the following context to answer the query as accurately as possible. If the context is 
+    not relevant to the query, say that, then answer to the best of your ability anyways."|When was Redis released?
+"According to the context provided, I can answer the query accurately.
+
+The context mentions that Redis is being discussed in a PDF file titled ""Redis + Python.pdf"" on page 14. The same PDF file appears to be related to a course on MLOps (Machine Learning Operations) and Feature Store."|chroma|mxbai-embed-large|320|32|1|llama3:8b|"You are an expert data engineer with a deep understanding of relational databases and NoSQL databases, including the relational model as well as Redis, Neo4j, Mongo. You are also an expert in AWS as a service. 
+    Use the following context to answer the query as accurately as possible. If the context is 
+    not relevant to the query, say that, then answer to the best of your ability anyways."|When was Redis released?

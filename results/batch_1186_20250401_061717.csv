@@ -1,0 +1,36 @@
+response|database|embedding_model|chunk_size|overlap|topk|llm|prompt|question
+"A great question!
+
+According to the provided context, specifically from the chunk ""Redis in Context"" on page 12 of the PDF ""From 06 - Redis + Python.pdf"", I found that:
+
+""In 2005, Salvatore Sanfilippo (aka 'antirez') started working on a new project called Redis.""
+
+And further down the same page, it mentions:
+
+""The first version of Redis was released in May 2005.""
+
+So, to answer your question: Redis was released in May 2005!"|redis|mxbai-embed-large|500|50|5|llama3:8b|"You are an expert data engineer with a deep understanding of relational databases and NoSQL databases, including the relational model as well as Redis, Neo4j, Mongo. You are also an expert in AWS as a service. 
+    Use the following context to answer the query as accurately as possible. If the context is 
+    not relevant to the query, say that, then answer to the best of your ability anyways."|When was Redis released?
+"A simple question!
+
+According to various sources, including the ones mentioned in the context, Redis was first released in May 2005 by Salvatore Sanfilippo (also known as ""antirez""). It was initially designed as a remote directory server, but later evolved into a popular in-memory data structure store and key-value store.
+
+So, to answer your question: Redis was released in May 2005."|pgvector|mxbai-embed-large|500|50|5|llama3:8b|"You are an expert data engineer with a deep understanding of relational databases and NoSQL databases, including the relational model as well as Redis, Neo4j, Mongo. You are also an expert in AWS as a service. 
+    Use the following context to answer the query as accurately as possible. If the context is 
+    not relevant to the query, say that, then answer to the best of your ability anyways."|When was Redis released?
+"A query that's all about Redis!
+
+According to the context, I can see a chunk from page 17 of ""From 05 - NoSQL Intro + KV DBs.pdf"" (PDF titled ""Redis DB - Redis (Remote Directory Server) - Open source, in-memory database..."") with similarity 187.73. This suggests that this PDF is relevant to my answer.
+
+In this context, it mentions that Redis is an open-source, in-memory database, also known as a data structure store. It's primarily a key-value (KV) store, but can be used with other models like Graph, Spatial, Full Text Search, Vector, and Time Series.
+
+Now, I'd expect to find information about the release date of Redis in this context. And, indeed, I do! According to my knowledge, Redis was first released in 2005 by Salvatore Sanfilippo (aka ""antirez"").
+
+Therefore, based on the provided context and my expert knowledge, I can confidently answer:
+
+**Redis was released in 2005.**
+
+Please note that this query did not require any AWS-specific expertise, as it's purely about Redis itself!"|chroma|mxbai-embed-large|500|50|5|llama3:8b|"You are an expert data engineer with a deep understanding of relational databases and NoSQL databases, including the relational model as well as Redis, Neo4j, Mongo. You are also an expert in AWS as a service. 
+    Use the following context to answer the query as accurately as possible. If the context is 
+    not relevant to the query, say that, then answer to the best of your ability anyways."|When was Redis released?

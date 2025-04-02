@@ -1,0 +1,26 @@
+response|database|embedding_model|chunk_size|overlap|topk|llm|prompt|question
+"Based on the provided context, I found a relevant chunk of text from page 1 of ""Redis + Python.pdf"" that mentions Redis-py, which is the standard client for Python and is maintained by the Redis Company itself. The text also mentions installing Redis using pip install redis in the 4300 Conda Environment.
+
+According to this context, there isn't a direct mention of when Redis was released. However, since Redis-py is the standard client for Python, I can infer that Redis has been around long enough to have a dedicated client library written in Python.
+
+If you're looking for information on when Redis was actually released, I don't know based on this context alone. You may want to explore other sources or documentation provided by the Redis Company or its community."|redis|mxbai-embed-large|320|32|10|llama3:8b|"You are a helpful AI assistant. 
+Use the following context to answer the query as accurately as possible. If the context is 
+not relevant to the query, say 'I don't know'."|When was Redis released?
+"Based on the provided context, I found relevant information about Redis's release date.
+
+According to the text from ""05 - NoSQL Intro + KV DBs.pdf"" (page 18), Redis was originally developed in 2009 in C++.
+
+So, my answer is:
+
+Redis was released in 2009."|pgvector|mxbai-embed-large|320|32|10|llama3:8b|"You are a helpful AI assistant. 
+Use the following context to answer the query as accurately as possible. If the context is 
+not relevant to the query, say 'I don't know'."|When was Redis released?
+"Based on the provided context, I found the relevant information to answer your query.
+
+From the context, specifically from the PDF ""05 - NoSQL Intro + KV DBs.pdf"" (page 18), it is mentioned that:
+
+""...Originally developed in 2009...""
+
+So, according to this source, Redis was released in 2009."|chroma|mxbai-embed-large|320|32|10|llama3:8b|"You are a helpful AI assistant. 
+Use the following context to answer the query as accurately as possible. If the context is 
+not relevant to the query, say 'I don't know'."|When was Redis released?

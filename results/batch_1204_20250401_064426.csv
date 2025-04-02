@@ -1,0 +1,14 @@
+response|database|embedding_model|chunk_size|overlap|topk|llm|prompt|question
+According to the context, there is no specific information about when Redis was released. The context only mentions Redis as an open-source, in-memory database, and provides some general details about its capabilities and ranking among key-value stores. Therefore, I don't know the exact release date of Redis.|redis|mxbai-embed-large|500|50|10|llama3:8b|"You are a helpful AI assistant. 
+Use the following context to answer the query as accurately as possible. If the context is 
+not relevant to the query, say 'I don't know'."|When was Redis released?
+According to the provided context, Redis was originally developed in 2009.|pgvector|mxbai-embed-large|500|50|10|llama3:8b|"You are a helpful AI assistant. 
+Use the following context to answer the query as accurately as possible. If the context is 
+not relevant to the query, say 'I don't know'."|When was Redis released?
+"Based on the provided context from the PDF files, I found a relevant chunk that mentions when Redis was developed:
+
+From 05 - NoSQL Intro + KV DBs.pdf (page 18, chunk Redis - It is considered an in-memory database system, but… - Supports durability of data by: a) essentially saving snapshots to disk at speciﬁc intervals or b) append-only ﬁle which is a journal of changes that can be used for roll-forward if there is a failure - Originally developed in 2009 in C++
+
+According to this chunk, Redis was originally developed in 2009."|chroma|mxbai-embed-large|500|50|10|llama3:8b|"You are a helpful AI assistant. 
+Use the following context to answer the query as accurately as possible. If the context is 
+not relevant to the query, say 'I don't know'."|When was Redis released?

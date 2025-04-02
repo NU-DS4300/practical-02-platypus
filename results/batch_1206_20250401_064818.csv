@@ -1,0 +1,23 @@
+response|database|embedding_model|chunk_size|overlap|topk|llm|prompt|question
+"Based on the provided context, I can answer your query accurately.
+
+An AVL tree is a self-balancing binary search tree that ensures the height of the left and right subtrees of every node differs by at most one. To maintain this balance, AVL trees use two types of rotations:
+
+* Left rotation: when the left subtree becomes too large
+* Right rotation: when the right subtree becomes too large
+
+In an AVL tree, multiple rotations are required to rebalance the tree in the following situations:
+
+1. **Left-left imbalance**: When a node's left child has a left child and its parent has a right child, two left rotations are needed.
+2. **Right-right imbalance**: When a node's right child has a right child and its parent has a left child, two right rotations are needed.
+3. **Left-right imbalance**: When a node's left child has a right child and its parent has a left child, one left rotation followed by one right rotation is required.
+
+These multiple rotations ensure the AVL tree remains balanced, maintaining the O(log n) search time complexity and efficient insertion and deletion operations."|redis|mxbai-embed-large|500|50|10|llama3:8b|"You are a helpful AI assistant. 
+Use the following context to answer the query as accurately as possible. If the context is 
+not relevant to the query, say 'I don't know'."|What kind of imbalances in an AVL tree require multiple rotations?
+I don't know. The context provided appears to be about graph data models, foundations, and data replication, but it does not mention AVL trees or their imbalances that require multiple rotations.|pgvector|mxbai-embed-large|500|50|10|llama3:8b|"You are a helpful AI assistant. 
+Use the following context to answer the query as accurately as possible. If the context is 
+not relevant to the query, say 'I don't know'."|What kind of imbalances in an AVL tree require multiple rotations?
+I don't know. The provided context appears to be related to graph data models, data replication, and various database concepts, but it does not seem to contain information about AVL trees or their rotation strategies. Therefore, I cannot provide a relevant answer to this query. If you're looking for information on AVL tree imbalances or rotations, I suggest searching for resources specifically focused on these topics.|chroma|mxbai-embed-large|500|50|10|llama3:8b|"You are a helpful AI assistant. 
+Use the following context to answer the query as accurately as possible. If the context is 
+not relevant to the query, say 'I don't know'."|What kind of imbalances in an AVL tree require multiple rotations?

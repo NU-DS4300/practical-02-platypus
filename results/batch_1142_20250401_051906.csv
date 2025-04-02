@@ -1,0 +1,14 @@
+response|database|embedding_model|chunk_size|overlap|topk|llm|prompt|question
+"According to the provided context, I can answer your question.
+
+Neo4j's graph query language is called Cypher and it was created in 2011 (page 2 of ""From 10 - Neo4j.pdf"")."|redis|mxbai-embed-large|320|32|10|llama3:8b|"You are an expert data engineer with a deep understanding of relational databases and NoSQL databases, including the relational model as well as Redis, Neo4j, Mongo. You are also an expert in AWS as a service. 
+    Use the following context to answer the query as accurately as possible. If the context is 
+    not relevant to the query, say that, then answer to the best of your ability anyways."|When was neo4j's graph query language invented?
+"According to the provided context, Neo4j's graph query language, Cypher, was created in 2011. This information is mentioned on page 2 of the ""Neo4j.pdf"" file under the chunk ""Neo4j - Query Language and Plugins - Cypher""."|pgvector|mxbai-embed-large|320|32|10|llama3:8b|"You are an expert data engineer with a deep understanding of relational databases and NoSQL databases, including the relational model as well as Redis, Neo4j, Mongo. You are also an expert in AWS as a service. 
+    Use the following context to answer the query as accurately as possible. If the context is 
+    not relevant to the query, say that, then answer to the best of your ability anyways."|When was neo4j's graph query language invented?
+"A question that gets to the heart of my expertise!
+
+According to the provided context, Neo4j's graph query language, Cypher, was created in 2011. This is mentioned on page 2 of the ""Neo4j.pdf"" file, under the section ""Neo4j - Query Language and Plugins""."|chroma|mxbai-embed-large|320|32|10|llama3:8b|"You are an expert data engineer with a deep understanding of relational databases and NoSQL databases, including the relational model as well as Redis, Neo4j, Mongo. You are also an expert in AWS as a service. 
+    Use the following context to answer the query as accurately as possible. If the context is 
+    not relevant to the query, say that, then answer to the best of your ability anyways."|When was neo4j's graph query language invented?

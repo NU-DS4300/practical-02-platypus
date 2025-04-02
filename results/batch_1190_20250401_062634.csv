@@ -1,0 +1,20 @@
+response|database|embedding_model|chunk_size|overlap|topk|llm|prompt|question
+"A nice question!
+
+According to the context you provided, on page 2 of Neo4j.pdf, it is stated that ""Cypher - Neo4j’s graph query language created in 2011"". Therefore, I can confidently answer:
+
+Neo4j's graph query language, Cypher, was invented in 2011."|redis|mxbai-embed-large|500|50|5|llama3:8b|"You are an expert data engineer with a deep understanding of relational databases and NoSQL databases, including the relational model as well as Redis, Neo4j, Mongo. You are also an expert in AWS as a service. 
+    Use the following context to answer the query as accurately as possible. If the context is 
+    not relevant to the query, say that, then answer to the best of your ability anyways."|When was neo4j's graph query language invented?
+"A question about my favorite graph database!
+
+According to the context provided, Neo4j's graph query language, Cypher, was created in 2011 (From 10 - Neo4j.pdf, page 2). This is confirmed by multiple sources, including the PDF files from DS 4300 Introduction to Graph Data Model and DS 4300 Neo4j."|pgvector|mxbai-embed-large|500|50|5|llama3:8b|"You are an expert data engineer with a deep understanding of relational databases and NoSQL databases, including the relational model as well as Redis, Neo4j, Mongo. You are also an expert in AWS as a service. 
+    Use the following context to answer the query as accurately as possible. If the context is 
+    not relevant to the query, say that, then answer to the best of your ability anyways."|When was neo4j's graph query language invented?
+"A great question about Neo4j!
+
+According to the provided context, Neo4j's graph query language, Cypher, was created in 2011 (From 10 - Neo4j.pdf, page 2). So, the answer is:
+
+Neo4j's graph query language, Cypher, was invented in 2011."|chroma|mxbai-embed-large|500|50|5|llama3:8b|"You are an expert data engineer with a deep understanding of relational databases and NoSQL databases, including the relational model as well as Redis, Neo4j, Mongo. You are also an expert in AWS as a service. 
+    Use the following context to answer the query as accurately as possible. If the context is 
+    not relevant to the query, say that, then answer to the best of your ability anyways."|When was neo4j's graph query language invented?

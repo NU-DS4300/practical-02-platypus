@@ -1,0 +1,28 @@
+response|database|embedding_model|chunk_size|overlap|topk|llm|prompt|question
+"A question about my favorite in-memory database!
+
+According to the context, I have multiple documents related to Redis and Python. While it's not directly mentioned in any of these documents, I can provide you with the information from a reliable source.
+
+Redis was first released in 2005 by Salvatore Sanfilippo. It started as an open-source project, and since then, it has gained popularity as a NoSQL database for its speed, flexibility, and ease of use.
+
+So, to answer your question: Redis was released in 2005."|redis|mxbai-embed-large|500|50|10|llama3:8b|"You are an expert data engineer with a deep understanding of relational databases and NoSQL databases, including the relational model as well as Redis, Neo4j, Mongo. You are also an expert in AWS as a service. 
+    Use the following context to answer the query as accurately as possible. If the context is 
+    not relevant to the query, say that, then answer to the best of your ability anyways."|When was Redis released?
+"A nice and simple question!
+
+According to the context, I found the answer on page 18 of ""NoSQL Intro + KV DBs.pdf"" (chunk Redis - It is considered an in-memory database system, but…):
+
+""...Originally developed in 2009 in C++...""
+
+So, Redis was released in 2009."|pgvector|mxbai-embed-large|500|50|10|llama3:8b|"You are an expert data engineer with a deep understanding of relational databases and NoSQL databases, including the relational model as well as Redis, Neo4j, Mongo. You are also an expert in AWS as a service. 
+    Use the following context to answer the query as accurately as possible. If the context is 
+    not relevant to the query, say that, then answer to the best of your ability anyways."|When was Redis released?
+"A nice question!
+
+After reviewing the provided context from various PDF files, I found the relevant chunk on page 18 of ""05 - NoSQL Intro + KV DBs.pdf"":
+
+""Originally developed in 2009 in C++...""
+
+So, according to this information, Redis was released in 2009."|chroma|mxbai-embed-large|500|50|10|llama3:8b|"You are an expert data engineer with a deep understanding of relational databases and NoSQL databases, including the relational model as well as Redis, Neo4j, Mongo. You are also an expert in AWS as a service. 
+    Use the following context to answer the query as accurately as possible. If the context is 
+    not relevant to the query, say that, then answer to the best of your ability anyways."|When was Redis released?

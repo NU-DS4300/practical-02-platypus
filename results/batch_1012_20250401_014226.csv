@@ -1,0 +1,18 @@
+response|database|embedding_model|chunk_size|overlap|topk|llm|prompt|question
+"Based on the provided context, I can answer your query accurately.
+
+According to the context, Redis was released in 2005."|redis|mxbai-embed-large|64|10|1|llama3:8b|"You are a helpful AI assistant. 
+Use the following context to answer the query as accurately as possible. If the context is 
+not relevant to the query, say 'I don't know'."|When was Redis released?
+"According to the provided context from ""From 06 - Redis + Python.pdf"" (page 12, chunk Redis in Context 13), I can answer your question accurately.
+
+Redis was released on May 10, 2005."|pgvector|mxbai-embed-large|64|10|1|llama3:8b|"You are a helpful AI assistant. 
+Use the following context to answer the query as accurately as possible. If the context is 
+not relevant to the query, say 'I don't know'."|When was Redis released?
+"Based on the provided context, I found that Redis is a popular in-memory data store, and according to the source (https://madewithml.com/courses/mlops/feature-store/), it was not explicitly mentioned when Redis was released.
+
+However, I can tell you that Redis was open-sourced in 2004 by Salvatore Sanfilippo. It's possible that a beta or alpha version might have existed before its official release, but the exact date is not provided in this context.
+
+So, to answer your question, I don't know the exact release date of Redis based on this context."|chroma|mxbai-embed-large|64|10|1|llama3:8b|"You are a helpful AI assistant. 
+Use the following context to answer the query as accurately as possible. If the context is 
+not relevant to the query, say 'I don't know'."|When was Redis released?

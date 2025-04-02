@@ -1,0 +1,37 @@
+response|database|embedding_model|chunk_size|overlap|topk|llm|prompt|question
+"Based on the provided context from pages 19 and 20 of ""NoSQL Intro + KV DBs.pdf"" and page 5 of ""Redis + Python.pdf"", I can answer your query.
+
+According to the documentation, the data types supported by Redis for values are:
+
+1. Strings
+2. Lists (linked lists)
+3. Sets (unique unsorted string elements)
+4. Sorted Sets
+5. Hashes (string → string)
+6. Geospatial data
+
+These data types can be used as values in Redis keys."|redis|mxbai-embed-large|320|32|10|llama3:8b|"You are a helpful AI assistant. 
+Use the following context to answer the query as accurately as possible. If the context is 
+not relevant to the query, say 'I don't know'."|Name the data types supported by Redis for values.
+"According to the provided context from ""Redis + Python.pdf"" (page 5), Redis supports the following data types for values:
+
+* Strings
+* Lists (linked lists)
+* Sets (unique unsorted string elements)
+* Sorted Sets
+* Hashes (string → string)
+* Geospatial data"|pgvector|mxbai-embed-large|320|32|10|llama3:8b|"You are a helpful AI assistant. 
+Use the following context to answer the query as accurately as possible. If the context is 
+not relevant to the query, say 'I don't know'."|Name the data types supported by Redis for values.
+"According to the provided context, the data types supported by Redis for values are:
+
+1. Strings
+2. Lists (linked lists)
+3. Sets (unique unsorted string elements)
+4. Sorted Sets
+5. Hashes (string → string)
+6. Geospatial data
+
+These data types can be used as values in Redis key-value pairs, as described in the context from page 19 of ""NoSQL Intro + KV DBs.pdf""."|chroma|mxbai-embed-large|320|32|10|llama3:8b|"You are a helpful AI assistant. 
+Use the following context to answer the query as accurately as possible. If the context is 
+not relevant to the query, say 'I don't know'."|Name the data types supported by Redis for values.

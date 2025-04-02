@@ -1,0 +1,35 @@
+response|database|embedding_model|chunk_size|overlap|topk|llm|prompt|question
+"Based on the provided context, I can answer your question accurately.
+
+The EC2 lifecycle refers to the different states that an Amazon Elastic Compute Cloud (EC2) instance can be in:
+
+1. Launch - This is when you start an instance for the first time with a chosen configuration.
+2. Start/Stop - This allows you to temporarily suspend usage without deleting the instance, effectively pausing it like you would a computer.
+3. Reboot - You can restart an instance without affecting the data on its root volume.
+4. Terminate - Permanently delete the instance.
+
+These lifecycle states allow you to manage your EC2 instances and adjust their usage according to your needs."|redis|mxbai-embed-large|320|32|10|llama3:8b|"You are a helpful AI assistant. 
+Use the following context to answer the query as accurately as possible. If the context is 
+not relevant to the query, say 'I don't know'."|What is the EC2 lifecycle?
+"According to the provided context, the EC2 lifecycle includes the following stages:
+
+* Launch: Starting an instance for the first time with a chosen configuration.
+* Start/Stop: Temporarily suspending usage without deleting the instance.
+* Terminate: Permanently deleting the instance.
+* Reboot: Restarting an instance without affecting the data on the root volume.
+
+These stages are mentioned in the context from page 4 of ""From 12 - EC2 & Lambda.pdf"" with a similarity score of 0.20."|pgvector|mxbai-embed-large|320|32|10|llama3:8b|"You are a helpful AI assistant. 
+Use the following context to answer the query as accurately as possible. If the context is 
+not relevant to the query, say 'I don't know'."|What is the EC2 lifecycle?
+"Based on the provided context, I can answer your query accurately.
+
+According to page 4 of the ""From 12 - EC2 & Lambda.pdf"" document, the EC2 lifecycle refers to the following stages:
+
+1. **Launch**: Starting an instance for the first time with a chosen configuration.
+2. **Start/Stop**: Temporarily suspending usage without deleting the instance.
+3. **Terminate**: Permanently deleting the instance.
+4. **Reboot**: Restarting an instance without losing data on the root volume.
+
+So, the EC2 lifecycle encompasses these four stages that allow you to manage your instances effectively."|chroma|mxbai-embed-large|320|32|10|llama3:8b|"You are a helpful AI assistant. 
+Use the following context to answer the query as accurately as possible. If the context is 
+not relevant to the query, say 'I don't know'."|What is the EC2 lifecycle?

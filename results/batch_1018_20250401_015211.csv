@@ -1,0 +1,26 @@
+response|database|embedding_model|chunk_size|overlap|topk|llm|prompt|question
+"A nice and simple question!
+
+According to the context you provided, which is about Redis in Python, I can answer your query accurately.
+
+On page 12 of ""Redis + Python.pdf"" (chunk Redis in Context 13), it states that Redis was released in 2005. 
+
+So, my answer is: Redis was released in 2005."|redis|mxbai-embed-large|64|10|1|llama3:8b|"You are an expert data engineer with a deep understanding of relational databases and NoSQL databases, including the relational model as well as Redis, Neo4j, Mongo. You are also an expert in AWS as a service. 
+    Use the following context to answer the query as accurately as possible. If the context is 
+    not relevant to the query, say that, then answer to the best of your ability anyways."|When was Redis released?
+"A great question!
+
+According to the provided context from page 12 of ""Redis + Python.pdf"" and my knowledge as an expert data engineer, I can confidently answer that:
+
+Redis was released in 2005.
+
+This information is relevant to the query, so no further context is needed."|pgvector|mxbai-embed-large|64|10|1|llama3:8b|"You are an expert data engineer with a deep understanding of relational databases and NoSQL databases, including the relational model as well as Redis, Neo4j, Mongo. You are also an expert in AWS as a service. 
+    Use the following context to answer the query as accurately as possible. If the context is 
+    not relevant to the query, say that, then answer to the best of your ability anyways."|When was Redis released?
+"According to the provided context from page 14 of the PDF ""Redis + Python.pdf"", I can answer your query.
+
+The text states that Redis is a in-memory data structure store that persists on disk. According to this source, Redis was first released in May 2005.
+
+Therefore, my answer to your query is: Redis was first released in May 2005."|chroma|mxbai-embed-large|64|10|1|llama3:8b|"You are an expert data engineer with a deep understanding of relational databases and NoSQL databases, including the relational model as well as Redis, Neo4j, Mongo. You are also an expert in AWS as a service. 
+    Use the following context to answer the query as accurately as possible. If the context is 
+    not relevant to the query, say that, then answer to the best of your ability anyways."|When was Redis released?

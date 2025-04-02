@@ -181,10 +181,10 @@ questions = ["When was Redis released?", "How many databases does Redis support?
 # ---------- Run Experiments ----------
 # Create a list to collect results
 results_list = []
-batch_num = 216
+batch_num = 1000
 
-for embedding_model in ["bge-m3"]: # , "mxbai-embed-large"
-    for chunk_size, overlap in [(1000, 100), (5000, 500), (8000, 1000)]:
+for embedding_model in ["mxbai-embed-large"]:
+    for chunk_size, overlap in [(64, 10), (320, 32), (500, 50)]:
             # Ingestion
             ingest_pgvector.pipeline_pgvector(chunk_size=chunk_size, overlap=overlap, embedding_model=embedding_model)
             collection = ingest_chroma.pipeline_chroma(chroma_client, collection, chunk_size=chunk_size, overlap=overlap, embedding_model=embedding_model)

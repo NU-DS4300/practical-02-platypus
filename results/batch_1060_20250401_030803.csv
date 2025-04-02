@@ -1,0 +1,16 @@
+response|database|embedding_model|chunk_size|overlap|topk|llm|prompt|question
+"Based on the provided context, I found a mention of Redis on page 1 of the document ""06 - Redis + Python.pdf"" with a chunk titled ""Redis-py 2"". The text mentions that Redis-py is the standard client for Python and is maintained by the Redis Company itself. This suggests that Redis was released sometime before the Redis-py client was developed.
+
+Unfortunately, the specific release date of Redis is not mentioned in this context. However, according to other sources, Redis was first released in 2005."|redis|mxbai-embed-large|64|10|10|llama3:8b|"You are a helpful AI assistant. 
+Use the following context to answer the query as accurately as possible. If the context is 
+not relevant to the query, say 'I don't know'."|When was Redis released?
+According to the context, Redis was originally developed in 2009 in C++.|pgvector|mxbai-embed-large|64|10|10|llama3:8b|"You are a helpful AI assistant. 
+Use the following context to answer the query as accurately as possible. If the context is 
+not relevant to the query, say 'I don't know'."|When was Redis released?
+"According to the provided context, Redis was originally developed in 2009 in C++. This information is found on page 18 of the ""NoSQL Intro + KV DBs.pdf"" document, which has a similarity score of 207.48. Therefore, my answer to your query is:
+
+Redis was released in 2009.
+
+I hope this helps!"|chroma|mxbai-embed-large|64|10|10|llama3:8b|"You are a helpful AI assistant. 
+Use the following context to answer the query as accurately as possible. If the context is 
+not relevant to the query, say 'I don't know'."|When was Redis released?

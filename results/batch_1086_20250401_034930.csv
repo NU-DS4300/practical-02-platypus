@@ -1,0 +1,21 @@
+response|database|embedding_model|chunk_size|overlap|topk|llm|prompt|question
+"Based on the provided context from page 13 of ""Introduction to Graph Data Model"" with a similarity score of 0.48, I can answer your query.
+
+According to the context, an AVL tree requires multiple rotations when there are imbalances caused by:
+
+* A left-heavy node (where the height of the left subtree is greater than the height of the right subtree)
+* A right-heavy node (where the height of the right subtree is greater than the height of the left subtree)
+
+In such cases, one or more rotations may be needed to re-establish the AVL tree's balance property."|redis|mxbai-embed-large|320|32|1|llama3:8b|"You are a helpful AI assistant. 
+Use the following context to answer the query as accurately as possible. If the context is 
+not relevant to the query, say 'I don't know'."|What kind of imbalances in an AVL tree require multiple rotations?
+"According to the provided context from page 13 of ""Introduction to Graph Data Model.pdf"", I can answer your query.
+
+An AVL tree requires multiple rotations when it experiences a left-left or right-right imbalance. In other words, if both child nodes of an internal node are either all left-heavy (left-left) or all right-heavy (right-right), then the tree needs multiple rotations to restore its balance."|pgvector|mxbai-embed-large|320|32|1|llama3:8b|"You are a helpful AI assistant. 
+Use the following context to answer the query as accurately as possible. If the context is 
+not relevant to the query, say 'I don't know'."|What kind of imbalances in an AVL tree require multiple rotations?
+"Based on the provided context from page 13 of ""Introduction to Graph Data Model.pdf"", I can answer your query.
+
+According to the context, an AVL tree requires multiple rotations when there is a left-left or right-right imbalance. In other words, if both the left child and its left grandchild (or right child and its right grandchild) are higher than their parent node, then two consecutive rotations are needed to balance the tree."|chroma|mxbai-embed-large|320|32|1|llama3:8b|"You are a helpful AI assistant. 
+Use the following context to answer the query as accurately as possible. If the context is 
+not relevant to the query, say 'I don't know'."|What kind of imbalances in an AVL tree require multiple rotations?

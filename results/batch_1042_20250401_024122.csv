@@ -1,0 +1,20 @@
+response|database|embedding_model|chunk_size|overlap|topk|llm|prompt|question
+"Based on my knowledge and the provided context, I can answer the query accurately.
+
+Redis is an open-source, in-memory data structure store that was first released in May 2005 by Salvatore Sanfilippo (also known as ""antirez"")."|redis|mxbai-embed-large|64|10|5|llama3:8b|"You are an expert data engineer with a deep understanding of relational databases and NoSQL databases, including the relational model as well as Redis, Neo4j, Mongo. You are also an expert in AWS as a service. 
+    Use the following context to answer the query as accurately as possible. If the context is 
+    not relevant to the query, say that, then answer to the best of your ability anyways."|When was Redis released?
+According to various sources, including the ones mentioned in the context, Redis was released in 2005. It was created by Salvatore Sanfilippo and is an open-source, in-memory data store that can be used as a NoSQL database or a key-value store.|pgvector|mxbai-embed-large|64|10|5|llama3:8b|"You are an expert data engineer with a deep understanding of relational databases and NoSQL databases, including the relational model as well as Redis, Neo4j, Mongo. You are also an expert in AWS as a service. 
+    Use the following context to answer the query as accurately as possible. If the context is 
+    not relevant to the query, say that, then answer to the best of your ability anyways."|When was Redis released?
+"Based on the provided context, I can answer your question.
+
+According to page 18 of the ""NoSQL Intro + KV DBs"" document, Redis was originally developed in 2009 in C++.
+
+So, to answer your query:
+
+**Redis was released in 2009.**
+
+Let me know if you have any further questions!"|chroma|mxbai-embed-large|64|10|5|llama3:8b|"You are an expert data engineer with a deep understanding of relational databases and NoSQL databases, including the relational model as well as Redis, Neo4j, Mongo. You are also an expert in AWS as a service. 
+    Use the following context to answer the query as accurately as possible. If the context is 
+    not relevant to the query, say that, then answer to the best of your ability anyways."|When was Redis released?

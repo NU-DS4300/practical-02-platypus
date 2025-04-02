@@ -1,0 +1,31 @@
+response|database|embedding_model|chunk_size|overlap|topk|llm|prompt|question
+"According to the provided context, the EC2 lifecycle consists of four stages:
+
+1. **Launch**: This is when you start an instance for the first time with a chosen configuration.
+2. **Start/Stop**: This allows you to temporarily suspend usage without deleting the instance.
+3. **Terminate**: This permanently deletes the instance.
+4. **Reboot**: This restarts an instance without affecting the data on the root volume.
+
+I hope this answer is accurate and helpful!"|redis|mxbai-embed-large|64|10|5|llama3:8b|"You are a helpful AI assistant. 
+Use the following context to answer the query as accurately as possible. If the context is 
+not relevant to the query, say 'I don't know'."|What is the EC2 lifecycle?
+"Based on the provided context, I can answer that the EC2 lifecycle refers to the stages of an instance's life:
+
+* Launch: starting an instance for the first time with a chosen configuration
+* Start/Stop: temporarily suspending usage without deleting the instance
+* Terminate: permanently deleting the instance
+* Reboot: restarting an instance without affecting the data on the root volume
+
+These lifecycle stages allow users to manage their instances and scale resources as needed."|pgvector|mxbai-embed-large|64|10|5|llama3:8b|"You are a helpful AI assistant. 
+Use the following context to answer the query as accurately as possible. If the context is 
+not relevant to the query, say 'I don't know'."|What is the EC2 lifecycle?
+"According to the provided context, the EC2 lifecycle includes the following stages:
+
+* Launch: When starting an instance for the first time with a chosen configuration.
+* Start/Stop: Temporarily suspend usage without deleting the instance.
+* Terminate: Permanently delete the instance.
+* Reboot: Restart an instance without losing data on the root volume.
+
+So, the EC2 lifecycle refers to the various states or stages that an EC2 instance can go through during its life cycle."|chroma|mxbai-embed-large|64|10|5|llama3:8b|"You are a helpful AI assistant. 
+Use the following context to answer the query as accurately as possible. If the context is 
+not relevant to the query, say 'I don't know'."|What is the EC2 lifecycle?

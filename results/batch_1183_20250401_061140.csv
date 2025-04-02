@@ -1,0 +1,33 @@
+response|database|embedding_model|chunk_size|overlap|topk|llm|prompt|question
+"According to the provided context, the EC2 lifecycle refers to the different states that an Amazon Elastic Compute Cloud (EC2) instance can be in. These states include:
+
+* Launch: When starting an instance for the first time with a chosen configuration.
+* Start/Stop: Temporarily suspending usage without deleting the instance.
+* Terminate: Permanently deleting the instance.
+* Reboot: Restarting an instance without losing data on the root volume.
+
+These lifecycle stages are mentioned in the context from page 4 of ""From 12 - EC2 & Lambda.pdf""."|redis|mxbai-embed-large|500|50|5|llama3:8b|"You are a helpful AI assistant. 
+Use the following context to answer the query as accurately as possible. If the context is 
+not relevant to the query, say 'I don't know'."|What is the EC2 lifecycle?
+"Based on the provided context, I can answer your question accurately.
+
+According to page 4 of the ""From 12 - EC2 & Lambda.pdf"" document, the EC2 lifecycle consists of four stages:
+
+1. **Launch**: Starting an instance for the first time with a chosen configuration.
+2. **Start/Stop**: Temporarily suspending usage without deleting the instance.
+3. **Terminate**: Permanently deleting the instance.
+4. **Reboot**: Restarting an instance without losing data on the root volume.
+
+So, the EC2 lifecycle refers to these four stages that describe the life cycle of an EC2 instance from launch to termination or reboot."|pgvector|mxbai-embed-large|500|50|5|llama3:8b|"You are a helpful AI assistant. 
+Use the following context to answer the query as accurately as possible. If the context is 
+not relevant to the query, say 'I don't know'."|What is the EC2 lifecycle?
+"According to the context, the EC2 lifecycle refers to the different stages an instance goes through from launch to termination. These stages include:
+
+* Launch: Starting an instance for the first time with a chosen configuration.
+* Start/Stop: Temporarily suspending usage without deleting the instance.
+* Terminate: Permanently deleting the instance.
+* Reboot: Restarting an instance without losing data on the root volume.
+
+These stages are mentioned in the context from page 4 of the document, specifically under the ""EC2 Lifecycle"" chunk."|chroma|mxbai-embed-large|500|50|5|llama3:8b|"You are a helpful AI assistant. 
+Use the following context to answer the query as accurately as possible. If the context is 
+not relevant to the query, say 'I don't know'."|What is the EC2 lifecycle?

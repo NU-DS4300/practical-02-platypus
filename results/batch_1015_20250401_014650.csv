@@ -1,0 +1,31 @@
+response|database|embedding_model|chunk_size|overlap|topk|llm|prompt|question
+"According to the provided context, the EC2 lifecycle refers to the different stages of an Amazon Elastic Compute Cloud (EC2) instance:
+
+1. Launch - starting an instance for the first time with a chosen configuration
+2. Start/Stop - temporarily suspending usage without deleting the instance
+3. Terminate - permanently deleting the instance
+4. Reboot - restarting an instance without affecting the data on the root volume
+
+So, the EC2 lifecycle encompasses these four stages that describe the life cycle of an EC2 instance."|redis|mxbai-embed-large|64|10|1|llama3:8b|"You are a helpful AI assistant. 
+Use the following context to answer the query as accurately as possible. If the context is 
+not relevant to the query, say 'I don't know'."|What is the EC2 lifecycle?
+"According to the provided context, the EC2 lifecycle refers to the different stages or states that an Amazon Elastic Compute Cloud (EC2) instance can go through during its lifetime. These stages are:
+
+1. **Launch**: When starting an instance for the first time with a chosen configuration.
+2. **Start/Stop**: Temporarily suspending usage without deleting the instance.
+3. **Terminate**: Permanently deleting the instance.
+4. **Reboot**: Restarting an instance without losing data on the root volume.
+
+So, that's the EC2 lifecycle!"|pgvector|mxbai-embed-large|64|10|1|llama3:8b|"You are a helpful AI assistant. 
+Use the following context to answer the query as accurately as possible. If the context is 
+not relevant to the query, say 'I don't know'."|What is the EC2 lifecycle?
+"According to the provided context, the EC2 (Elastic Compute Cloud) lifecycle includes four stages:
+
+1. **Launch**: Starting an instance for the first time with a chosen configuration.
+2. **Start/Stop**: Temporarily suspending usage without deleting the instance.
+3. **Terminate**: Permanently deleting the instance.
+4. **Reboot**: Restarting an instance without losing data on the root volume.
+
+These stages allow you to manage your EC2 instances effectively, depending on your needs and requirements."|chroma|mxbai-embed-large|64|10|1|llama3:8b|"You are a helpful AI assistant. 
+Use the following context to answer the query as accurately as possible. If the context is 
+not relevant to the query, say 'I don't know'."|What is the EC2 lifecycle?

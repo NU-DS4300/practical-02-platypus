@@ -1,0 +1,33 @@
+response|database|embedding_model|chunk_size|overlap|topk|llm|prompt|question
+"According to the provided context, the EC2 lifecycle refers to the stages that an Amazon Elastic Compute Cloud (EC2) instance goes through:
+
+1. **Launch**: This is when you start an instance for the first time with a chosen configuration.
+2. **Start/Stop**: This stage involves temporarily suspending usage without deleting the instance. You can start or stop the instance as needed.
+3. **Terminate**: In this stage, the instance is permanently deleted.
+4. **Reboot**: This stage restarts an instance without losing data on the root volume.
+
+These stages make up the lifecycle of an EC2 instance in AWS."|redis|mxbai-embed-large|500|50|1|llama3:8b|"You are an expert data engineer with a deep understanding of relational databases and NoSQL databases, including the relational model as well as Redis, Neo4j, Mongo. You are also an expert in AWS as a service. 
+    Use the following context to answer the query as accurately as possible. If the context is 
+    not relevant to the query, say that, then answer to the best of your ability anyways."|What is the EC2 lifecycle?
+"Based on the provided context, the EC2 lifecycle refers to the various states that an Amazon Elastic Compute Cloud (EC2) instance can be in. These states are:
+
+1. **Launch**: This is when you start an EC2 instance for the first time with a chosen configuration.
+2. **Start/Stop**: You can temporarily suspend the usage of an instance without deleting it. This state allows you to restart the instance later without losing any data on the root volume.
+3. **Terminate**: Permanently delete the instance, which is equivalent to deleting a virtual machine.
+4. **Reboot**: Restart an EC2 instance without terminating it, which can be useful for maintenance or troubleshooting purposes.
+
+These states are essential in managing your EC2 instances and ensuring they are running efficiently and effectively."|pgvector|mxbai-embed-large|500|50|1|llama3:8b|"You are an expert data engineer with a deep understanding of relational databases and NoSQL databases, including the relational model as well as Redis, Neo4j, Mongo. You are also an expert in AWS as a service. 
+    Use the following context to answer the query as accurately as possible. If the context is 
+    not relevant to the query, say that, then answer to the best of your ability anyways."|What is the EC2 lifecycle?
+"Based on the provided context, I can confidently answer that the EC2 lifecycle refers to the different states or stages that an Amazon Elastic Compute Cloud (EC2) instance can go through during its lifetime.
+
+According to the context, these stages are:
+
+1. **Launch**: This is when you start an instance for the first time with a chosen configuration.
+2. **Start/Stop**: This allows you to temporarily suspend usage without deleting the instance. You can restart the instance later by starting it again.
+3. **Terminate**: This permanently deletes the instance, effectively ending its life cycle.
+4. **Reboot**: This restarts an instance without affecting data on the root volume.
+
+These stages collectively form the EC2 lifecycle, giving you control over your instances' creation, usage, and disposal."|chroma|mxbai-embed-large|500|50|1|llama3:8b|"You are an expert data engineer with a deep understanding of relational databases and NoSQL databases, including the relational model as well as Redis, Neo4j, Mongo. You are also an expert in AWS as a service. 
+    Use the following context to answer the query as accurately as possible. If the context is 
+    not relevant to the query, say that, then answer to the best of your ability anyways."|What is the EC2 lifecycle?
