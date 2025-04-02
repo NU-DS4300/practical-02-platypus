@@ -29,33 +29,49 @@ df["Correct"] = df.apply(lambda row: check_correctness(row["response"], row["que
 df.to_csv("validated_responses.csv", index=False)
 
 # Function to plot graphs
-def plot_results(grouped_df, title):
-    grouped_df.plot(kind='bar', stacked=True, figsize=(10, 6))
+def plot_results(data_series, title):
+    # Convert series to DataFrame for plotting
+    df_plot = pd.DataFrame({'Correct (%)': data_series})
+    
+    # Create the bar plot
+    ax = df_plot.plot(kind='bar', figsize=(10, 6), color='green')
+    
+    # Set the y-axis to go from 0 to 100
+    plt.ylim(0, 100)
+    
+    # Add a horizontal line at y=50 for reference
+    # plt.axhline(y=50, color='gray', linestyle='--', alpha=0.7)
+    
+    # Add value labels on top of each bar
+    for i, v in enumerate(data_series):
+        ax.text(i, v + 2, f'{v:.1f}%', ha='center')
+    
+    # Set titles and labels
     plt.title(title)
-    plt.ylabel("Number of Questions")
+    plt.ylabel("Percentage Correct (%)")
     plt.xlabel("Category")
-    plt.legend(["Incorrect", "Correct"], loc="upper right")
     plt.xticks(rotation=45)
+    plt.tight_layout()
     plt.show()
 
-# Group by database
-db_group = df.groupby("database")["Correct"].value_counts().unstack(fill_value=0)
-plot_results(db_group, "Performance by Database")
+# Group by database and get only correct percentages
+db_group = df.groupby("database")["Correct"].mean() * 100  # mean of True/False gives proportion of True
+plot_results(db_group, "Correct Responses by Database (%)")
 
 # Group by embedding model
-embed_group = df.groupby("embedding_model")["Correct"].value_counts().unstack(fill_value=0)
-plot_results(embed_group, "Performance by Embedding Model")
+embed_group = df.groupby("embedding_model")["Correct"].mean() * 100
+plot_results(embed_group, "Correct Responses by Embedding Model (%)")
 
 # Group by chunk size
-chunk_group = df.groupby("chunk_size")["Correct"].value_counts().unstack(fill_value=0)
-plot_results(chunk_group, "Performance by Chunk Size")
+chunk_group = df.groupby("chunk_size")["Correct"].mean() * 100
+plot_results(chunk_group, "Correct Responses by Chunk Size (%)")
 
 # Group by overlap
-overlap_group = df.groupby("overlap")["Correct"].value_counts().unstack(fill_value=0)
-plot_results(overlap_group, "Performance by Overlap")
+overlap_group = df.groupby("overlap")["Correct"].mean() * 100
+plot_results(overlap_group, "Correct Responses by Overlap (%)")
 
 # Group by topk
-topk_group = df.groupby("topk")["Correct"].value_counts().unstack(fill_value=0)
-plot_results(topk_group, "Performance by Top-K")
+topk_group = df.groupby("topk")["Correct"].mean() * 100
+plot_results(topk_group, "Correct Responses by Top-K (%)")
 
 print("Validation and graphing complete. Results saved to validated_responses.csv.")
