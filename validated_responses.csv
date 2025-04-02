@@ -1298,7 +1298,7 @@ The EC2 lifecycle refers to the various phases that instances of EC2 (Elastic Cl
 
 This timeline illustrates how an instance operates within the cloud, involving various phases of usage and management.",chroma,nomic-embed-text,1000,100,5,deepseek-r1:1.5b,"You are a helpful AI assistant. 
 Use the following context to answer the query as accurately as possible. If the context is 
-not relevant to the query, say 'I don't know'.",What is the EC2 lifecycle?,False
+not relevant to the query, say 'I don't know'.",What is the EC2 lifecycle?,True
 "<think>
 Okay, so I need to figure out when Neo4J's graph query language was invented. The user provided a bunch of context files, but from what I can tell, they're all related to the Graph Data Model and the Neo4j graph database system. 
 
@@ -3213,7 +3213,7 @@ To restore balance in such cases, the following rotations may be required:
 
 In summary, multiple rotations may be needed in an AVL tree when there's a more complex imbalance, such as LR or RL, which requires a double rotation to restore balance.",pgvector,nomic-embed-text,1000,100,10,llama3:8b,"You are an expert data engineer with a deep understanding of relational databases and NoSQL databases, including the relational model as well as Redis, Neo4j, Mongo. You are also an expert in AWS as a service. 
     Use the following context to answer the query as accurately as possible. If the context is 
-    not relevant to the query, say that, then answer to the best of your ability anyways.",What kind of imbalances in an AVL tree require multiple rotations?,True
+    not relevant to the query, say that, then answer to the best of your ability anyways.",What kind of imbalances in an AVL tree require multiple rotations?,False
 "I see that the provided context is mostly about NoSQL databases, relational databases, and data replication. However, I can still attempt to answer your query to the best of my ability.
 
 An AVL tree is a self-balancing binary search tree data structure. It requires multiple rotations in the following situations:
@@ -6200,7 +6200,7 @@ The EC2 lifecycle refers to the various stages that occur when managing a comput
 
 This lifecycle is managed through EC2's features like elasticity for scaling instances up or down, integration with other cloud services, and considerations for operating systems and pricing models.",pgvector,nomic-embed-text,5000,500,10,deepseek-r1:1.5b,"You are an expert data engineer with a deep understanding of relational databases and NoSQL databases, including the relational model as well as Redis, Neo4j, Mongo. You are also an expert in AWS as a service. 
     Use the following context to answer the query as accurately as possible. If the context is 
-    not relevant to the query, say that, then answer to the best of your ability anyways.",What is the EC2 lifecycle?,False
+    not relevant to the query, say that, then answer to the best of your ability anyways.",What is the EC2 lifecycle?,True
 "<think>
 Okay, so I'm trying to understand what the EC2 lifecycle means. From the context provided, it seems like EC2 stands for Amazon Elastic Cloud Compute, and it's a service that allows businesses to run serverless applications on cloud-based virtual machines. The user is asking about the EC2 lifecycle, which probably refers to how these instances are managed over time.
 
@@ -6600,7 +6600,7 @@ However, if an imbalance occurs and both subtrees need to be rotated to restore 
 
 These multiple rotations are necessary to ensure that the tree remains balanced and efficient for search operations.",chroma,nomic-embed-text,5000,500,10,llama3:8b,"You are an expert data engineer with a deep understanding of relational databases and NoSQL databases, including the relational model as well as Redis, Neo4j, Mongo. You are also an expert in AWS as a service. 
     Use the following context to answer the query as accurately as possible. If the context is 
-    not relevant to the query, say that, then answer to the best of your ability anyways.",What kind of imbalances in an AVL tree require multiple rotations?,True
+    not relevant to the query, say that, then answer to the best of your ability anyways.",What kind of imbalances in an AVL tree require multiple rotations?,False
 "Based on the provided context from the EC2 & Lambda PDFs, the EC2 lifecycle refers to the various states or stages that an Amazon Elastic Compute Cloud (EC2) instance can be in. These stages are:
 
 1. **Launch**: Starting an instance for the first time with a chosen configuration.
@@ -7289,7 +7289,7 @@ EC2's lifecycle revolves around managing virtual machines on AWS, following spec
 
 EC2 instances exist independently on AWS and manage their lifecycle through these stages, ensuring services run concurrently while allowing rebooting or deletion as required.",redis,nomic-embed-text,8000,1000,1,deepseek-r1:1.5b,"You are an expert data engineer with a deep understanding of relational databases and NoSQL databases, including the relational model as well as Redis, Neo4j, Mongo. You are also an expert in AWS as a service. 
     Use the following context to answer the query as accurately as possible. If the context is 
-    not relevant to the query, say that, then answer to the best of your ability anyways.",What is the EC2 lifecycle?,False
+    not relevant to the query, say that, then answer to the best of your ability anyways.",What is the EC2 lifecycle?,True
 "<think>
 Okay, so I need to figure out what the EC2 lifecycle is based on the provided context. Let me read through it again.
 
@@ -7665,7 +7665,7 @@ In general, single rotations can resolve most imbalances in an AVL tree. However
 
 To determine whether multiple rotations are necessary, you would need to analyze the specific imbalance in the AVL tree.",chroma,nomic-embed-text,8000,1000,1,llama3:8b,"You are an expert data engineer with a deep understanding of relational databases and NoSQL databases, including the relational model as well as Redis, Neo4j, Mongo. You are also an expert in AWS as a service. 
     Use the following context to answer the query as accurately as possible. If the context is 
-    not relevant to the query, say that, then answer to the best of your ability anyways.",What kind of imbalances in an AVL tree require multiple rotations?,True
+    not relevant to the query, say that, then answer to the best of your ability anyways.",What kind of imbalances in an AVL tree require multiple rotations?,False
 "Based on the provided context, I can accurately answer your query.
 
 The EC2 lifecycle refers to the different stages that an Amazon Elastic Compute Cloud (EC2) instance goes through during its lifespan. These stages include:
@@ -9278,7 +9278,7 @@ Redis primarily supports the following data types for its values:
 
  Redis is optimized for these types due to its in-memory design and ease of use.",redis,nomic-embed-text,8000,1000,10,deepseek-r1:1.5b,"You are a helpful AI assistant. 
 Use the following context to answer the query as accurately as possible. If the context is 
-not relevant to the query, say 'I don't know'.",Name the data types supported by Redis for values.,False
+not relevant to the query, say 'I don't know'.",Name the data types supported by Redis for values.,True
 "<think>
 Okay, so I'm trying to figure out what data types Redis supports for values. Let me start by looking through the context provided.
 
@@ -9973,7 +9973,7 @@ Multiple rotations can be required in the following scenarios:
 
 These multiple rotations ensure that the AVL tree remains balanced, maintaining its search efficiency.",redis,nomic-embed-text,8000,1000,10,llama3:8b,"You are an expert data engineer with a deep understanding of relational databases and NoSQL databases, including the relational model as well as Redis, Neo4j, Mongo. You are also an expert in AWS as a service. 
     Use the following context to answer the query as accurately as possible. If the context is 
-    not relevant to the query, say that, then answer to the best of your ability anyways.",What kind of imbalances in an AVL tree require multiple rotations?,True
+    not relevant to the query, say that, then answer to the best of your ability anyways.",What kind of imbalances in an AVL tree require multiple rotations?,False
 "Based on my expertise as a data engineer, I can confidently say that this query has no direct relevance to the provided context, which primarily focuses on relational databases, NoSQL databases (including Redis and Neo4j), and Amazon Web Services.
 
 However, since you asked, I'll provide an answer based on my knowledge of AVL trees. In an AVL tree, there are two types of imbalances that require multiple rotations:
@@ -13199,7 +13199,7 @@ These types are primarily suited for Key-Value stores but can handle other struc
 
 Answer: Redis supports strings, lists (linked lists), sorted sets, hashes (key-value pairs), and geospatial data.",redis,bge-m3,1000,100,10,deepseek-r1:1.5b,"You are an expert data engineer with a deep understanding of relational databases and NoSQL databases, including the relational model as well as Redis, Neo4j, Mongo. You are also an expert in AWS as a service. 
     Use the following context to answer the query as accurately as possible. If the context is 
-    not relevant to the query, say that, then answer to the best of your ability anyways.",Name the data types supported by Redis for values.,False
+    not relevant to the query, say that, then answer to the best of your ability anyways.",Name the data types supported by Redis for values.,True
 "<think>
 Okay, so I need to figure out what data types Redis supports for their values. From the context provided, it seems like there's some information about Redis as an in-memory database system and its various commands.
 
@@ -13226,7 +13226,7 @@ Redis supports several data types for handling key-value pairs, including:
 
 These operations are facilitated through Redis commands like `r.set()`, `r.get()`, and `r.incr()` for managing data. Additionally, language libraries such as mset(), mget(), and mlist() are available for further exploration of these commands in various programming contexts.",pgvector,bge-m3,1000,100,10,deepseek-r1:1.5b,"You are an expert data engineer with a deep understanding of relational databases and NoSQL databases, including the relational model as well as Redis, Neo4j, Mongo. You are also an expert in AWS as a service. 
     Use the following context to answer the query as accurately as possible. If the context is 
-    not relevant to the query, say that, then answer to the best of your ability anyways.",Name the data types supported by Redis for values.,False
+    not relevant to the query, say that, then answer to the best of your ability anyways.",Name the data types supported by Redis for values.,True
 "<think>
 Okay, I need to figure out how to name the data types supported by Redis for values based on the provided context. Let me go through the information step by step.
 
@@ -17162,7 +17162,7 @@ The data types supported by Redis for values include:
 
 These types are fundamental to Redis's architecture and its use as a NoSQL database.",redis,bge-m3,8000,1000,1,deepseek-r1:1.5b,"You are a helpful AI assistant. 
 Use the following context to answer the query as accurately as possible. If the context is 
-not relevant to the query, say 'I don't know'.",Name the data types supported by Redis for values.,False
+not relevant to the query, say 'I don't know'.",Name the data types supported by Redis for values.,True
 "<think>
 Okay, so I need to answer this query about the data types supported by Redis for values based on the given context. Let me read through the context again carefully.
 
@@ -17407,7 +17407,7 @@ The imbalances that require multiple rotations in an AVL tree are primarily clas
 
 In cases where imbalances are more than two levels deep, multiple rotations are needed. Each rotation adjusts nodes and their subtrees, eventually balancing the tree or causing cascading corrections until all subtrees are within acceptable balance levels.",chroma,bge-m3,8000,1000,1,deepseek-r1:1.5b,"You are an expert data engineer with a deep understanding of relational databases and NoSQL databases, including the relational model as well as Redis, Neo4j, Mongo. You are also an expert in AWS as a service. 
     Use the following context to answer the query as accurately as possible. If the context is 
-    not relevant to the query, say that, then answer to the best of your ability anyways.",What kind of imbalances in an AVL tree require multiple rotations?,True
+    not relevant to the query, say that, then answer to the best of your ability anyways.",What kind of imbalances in an AVL tree require multiple rotations?,False
 "<think>
 Okay, I need to figure out what EC2 lifecycle means based on the context provided. The context mentions ""EC2 & Lambda.pdf"" and some mention of ""NoSQL databases,"" but it doesn't directly talk about EC2 itself. So maybe that's not relevant.
 
@@ -17808,7 +17808,7 @@ In some cases, multiple rotations might be required to restore balance. This can
 
 Please note that this answer is not directly related to the provided context, which appears to be discussing relational databases and NoSQL databases.",pgvector,bge-m3,8000,1000,1,llama3:8b,"You are an expert data engineer with a deep understanding of relational databases and NoSQL databases, including the relational model as well as Redis, Neo4j, Mongo. You are also an expert in AWS as a service. 
     Use the following context to answer the query as accurately as possible. If the context is 
-    not relevant to the query, say that, then answer to the best of your ability anyways.",What kind of imbalances in an AVL tree require multiple rotations?,True
+    not relevant to the query, say that, then answer to the best of your ability anyways.",What kind of imbalances in an AVL tree require multiple rotations?,False
 "I'm happy to help! However, I must say that the query ""What kind of imbalances in an AVL tree require multiple rotations?"" is not directly related to the context provided.
 
 The context discusses the limitations and challenges of relational databases, while the query asks about AVL trees. While both topics are relevant to computer science and data engineering, they are distinct areas of study.
@@ -17824,7 +17824,7 @@ Multiple rotations are required in the following cases:
 
 Please note that this answer is specific to AVL trees and may not be relevant to the context provided.",chroma,bge-m3,8000,1000,1,llama3:8b,"You are an expert data engineer with a deep understanding of relational databases and NoSQL databases, including the relational model as well as Redis, Neo4j, Mongo. You are also an expert in AWS as a service. 
     Use the following context to answer the query as accurately as possible. If the context is 
-    not relevant to the query, say that, then answer to the best of your ability anyways.",What kind of imbalances in an AVL tree require multiple rotations?,True
+    not relevant to the query, say that, then answer to the best of your ability anyways.",What kind of imbalances in an AVL tree require multiple rotations?,False
 "Based on my expertise in AWS as a service and considering the provided context, I'd be happy to answer your query!
 
 The EC2 lifecycle refers to the life cycle of an Amazon Elastic Compute Cloud (EC2) instance. An EC2 instance can go through several states during its lifetime. The primary states include:
@@ -23530,7 +23530,7 @@ When an imbalance is detected, the AVL tree performs a sequence of rotations to 
 
 Keep in mind that this information is based on general knowledge about AVL trees, rather than direct context from your provided PDFs. If you have any specific questions or would like more detailed information, feel free to ask!",pgvector,mxbai-embed-large,64,10,10,llama3:8b,"You are a helpful AI assistant. 
 Use the following context to answer the query as accurately as possible. If the context is 
-not relevant to the query, say 'I don't know'.",What kind of imbalances in an AVL tree require multiple rotations?,True
+not relevant to the query, say 'I don't know'.",What kind of imbalances in an AVL tree require multiple rotations?,False
 "I don't know. The provided context appears to be about data structures, databases, and graph models, but it does not mention AVL trees or rotations. Therefore, I am unable to provide an accurate answer to your query. If you'd like help with something else, feel free to ask!",chroma,mxbai-embed-large,64,10,10,llama3:8b,"You are a helpful AI assistant. 
 Use the following context to answer the query as accurately as possible. If the context is 
 not relevant to the query, say 'I don't know'.",What kind of imbalances in an AVL tree require multiple rotations?,False
@@ -23665,7 +23665,7 @@ To correct these imbalances, you might need to perform two or three rotations, d
 
 Please note that this answer is based solely on my understanding of AVL trees and balancing algorithms. The provided context doesn't seem directly relevant to the question, but I tried to provide a helpful response nonetheless!",redis,mxbai-embed-large,64,10,10,llama3:8b,"You are an expert data engineer with a deep understanding of relational databases and NoSQL databases, including the relational model as well as Redis, Neo4j, Mongo. You are also an expert in AWS as a service. 
     Use the following context to answer the query as accurately as possible. If the context is 
-    not relevant to the query, say that, then answer to the best of your ability anyways.",What kind of imbalances in an AVL tree require multiple rotations?,True
+    not relevant to the query, say that, then answer to the best of your ability anyways.",What kind of imbalances in an AVL tree require multiple rotations?,False
 "A nice question!
 
 Based on my expertise in data structures and graph theory, I can answer your query.
@@ -24489,7 +24489,7 @@ The EC2 lifecycle refers to the management of instances across AWS Elastic Load 
 
 This lifecycle is managed within the EC2 instance configuration and is aligned with AWS' usual management practices for resources.",chroma,mxbai-embed-large,320,32,1,deepseek-r1:1.5b,"You are an expert data engineer with a deep understanding of relational databases and NoSQL databases, including the relational model as well as Redis, Neo4j, Mongo. You are also an expert in AWS as a service. 
     Use the following context to answer the query as accurately as possible. If the context is 
-    not relevant to the query, say that, then answer to the best of your ability anyways.",What is the EC2 lifecycle?,False
+    not relevant to the query, say that, then answer to the best of your ability anyways.",What is the EC2 lifecycle?,True
 "<think>
 Okay, so I need to figure out when Neo4j's graph query language was invented. From the context provided, there's a document called ""From 10 - Neo4j.pdf"" which mentions that Neo4j was created in 2011 as a graph query language. The document also talks about Cypher, APOC plugins, and other tools like Graph Data Science. It's focused on providing a visual way to match patterns and relationships in nodes.
 
@@ -27198,7 +27198,7 @@ In rare cases, multiple double rotations might be needed to fully restore balanc
 
 So, to summarize: multiple rotations are required in AVL trees to correct more severe imbalances, such as left-heavy or right-heavy imbalances, which may involve double rotations.",chroma,mxbai-embed-large,320,32,10,llama3:8b,"You are an expert data engineer with a deep understanding of relational databases and NoSQL databases, including the relational model as well as Redis, Neo4j, Mongo. You are also an expert in AWS as a service. 
     Use the following context to answer the query as accurately as possible. If the context is 
-    not relevant to the query, say that, then answer to the best of your ability anyways.",What kind of imbalances in an AVL tree require multiple rotations?,True
+    not relevant to the query, say that, then answer to the best of your ability anyways.",What kind of imbalances in an AVL tree require multiple rotations?,False
 "Based on the provided context, I can answer your question accurately.
 
 According to page 4 of the document (chunk EC2 Lifecycle), the EC2 lifecycle refers to the following stages:
@@ -27479,7 +27479,7 @@ The EC2 lifecycle refers to the management processes of EC2 instances, which are
 
 Answer: EC2 lifecycle refers to the management processes of EC2 instances as they are set up, stopped, reinitialized, or rebooted, ensuring consistent operation and data preservation.",pgvector,mxbai-embed-large,500,50,1,deepseek-r1:1.5b,"You are a helpful AI assistant. 
 Use the following context to answer the query as accurately as possible. If the context is 
-not relevant to the query, say 'I don't know'.",What is the EC2 lifecycle?,False
+not relevant to the query, say 'I don't know'.",What is the EC2 lifecycle?,True
 "<think>
 Okay, so I need to figure out what the question is asking and how to answer it using the provided context.
 
@@ -28054,7 +28054,7 @@ The data types in Redis that support values are:
 
 These data types cover the entities and fields typically associated with NoSQL stores when storing values.",pgvector,mxbai-embed-large,500,50,1,deepseek-r1:1.5b,"You are an expert data engineer with a deep understanding of relational databases and NoSQL databases, including the relational model as well as Redis, Neo4j, Mongo. You are also an expert in AWS as a service. 
     Use the following context to answer the query as accurately as possible. If the context is 
-    not relevant to the query, say that, then answer to the best of your ability anyways.",Name the data types supported by Redis for values.,False
+    not relevant to the query, say that, then answer to the best of your ability anyways.",Name the data types supported by Redis for values.,True
 "<think>
 Okay, so I'm trying to figure out what data types Redis supports for holding values. From the context provided, it seems like they're talking about how Redis handles different kinds of data.
 
@@ -28264,7 +28264,7 @@ When inserting a new node into an AVL tree, we need to rebalance the tree if it 
 
 In each of these cases, the tree requires multiple rotations to restore the AVL property and maintain balance.",pgvector,mxbai-embed-large,500,50,1,llama3:8b,"You are an expert data engineer with a deep understanding of relational databases and NoSQL databases, including the relational model as well as Redis, Neo4j, Mongo. You are also an expert in AWS as a service. 
     Use the following context to answer the query as accurately as possible. If the context is 
-    not relevant to the query, say that, then answer to the best of your ability anyways.",What kind of imbalances in an AVL tree require multiple rotations?,True
+    not relevant to the query, say that, then answer to the best of your ability anyways.",What kind of imbalances in an AVL tree require multiple rotations?,False
 "A graph theory question!
 
 According to the AVL tree properties, a single rotation is sufficient to balance the tree when:
@@ -29361,7 +29361,7 @@ These multiple rotations are necessary to maintain the AVL tree's property of ha
 
 So, in summary: consecutive insertions that cause an AVL tree to become significantly unbalanced require multiple rotations to restore balance and maintain the tree's properties.",redis,mxbai-embed-large,500,50,5,llama3:8b,"You are an expert data engineer with a deep understanding of relational databases and NoSQL databases, including the relational model as well as Redis, Neo4j, Mongo. You are also an expert in AWS as a service. 
     Use the following context to answer the query as accurately as possible. If the context is 
-    not relevant to the query, say that, then answer to the best of your ability anyways.",What kind of imbalances in an AVL tree require multiple rotations?,True
+    not relevant to the query, say that, then answer to the best of your ability anyways.",What kind of imbalances in an AVL tree require multiple rotations?,False
 "A question that's quite specific and unrelated to the provided context!
 
 But, I'll do my best to answer it anyway.
@@ -29628,7 +29628,7 @@ The imbalances in an AVL tree that require multiple rotations are **Left-Left (L
 
 **Answer:** Imbalances requiring multiple rotations in an AVL tree include Left-Left (LL) and Right-Right (RR) imbalances, which each require two rotations.",redis,mxbai-embed-large,500,50,10,deepseek-r1:1.5b,"You are a helpful AI assistant. 
 Use the following context to answer the query as accurately as possible. If the context is 
-not relevant to the query, say 'I don't know'.",What kind of imbalances in an AVL tree require multiple rotations?,True
+not relevant to the query, say 'I don't know'.",What kind of imbalances in an AVL tree require multiple rotations?,False
 "<think>
 Okay, I need to figure out what kind of imbalances in an AVL tree cause multiple rotations. Let me start by understanding what an AVL tree is and what imbalances are.
 

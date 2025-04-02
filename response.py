@@ -9,10 +9,10 @@ df = pd.read_csv("results.csv", sep='|')
 correct_answers = {
     "When was Redis released?": r"\b2009\b",
     "How many databases does Redis support?": r"\b16\b",
-    "What kind of imbalances in an AVL tree require multiple rotations?": r"\bLR\b|\bRL\b",
-    "What is the EC2 lifecycle?": r"\bLaunch\b.*\bStart/stop\b.*\bTerminate\b.*\bReboot\b",
+    "What kind of imbalances in an AVL tree require multiple rotations?": r"^(?=.*LR)(?=.*RL)",
+    "What is the EC2 lifecycle?": r"(?=.*\bLaunch\b)(?=.*\b(?:Start|Stop)\b)(?=.*\bTerminate\b)(?=.*\bReboot\b)",
     "When was neo4j's graph query language invented?": r"\b2011\b",
-    "Name the data types supported by Redis for values.": r"\bStrings\b.*\bLists\b.*\bSets\b.*\bSorted Sets\b.*\bHashes\b.*\bGeospatial Data\b"
+    "Name the data types supported by Redis for values.": r"(?=.*\bStrings\b)(?=.*\bLists\b)(?=.*\bSets\b)(?=.*\bSorted Sets\b)(?=.*\bHashes\b)(?=.*\bGeospatial Data\b)"
 }
 
 # Function to check if response contains the correct answer
