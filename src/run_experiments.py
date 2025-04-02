@@ -1,6 +1,6 @@
 # Variables to explore:
 # Preprocessing: Chunk size/overlap, stop word removal, whitespace adjustment
-# Embedding: Three models (nomic-embed-text, all-miniLM, mxbai-embed-large)
+# Embedding: Three models (nomic-embed-text, bge-m3, mxbai-embed-large)
 # Databases: Three vector databases (pgvector, redis, chroma)
 # System prompt tweaks: Basic prompt, long role-based prompt
 # LLMs: Two LLMs (deepseek-r1 1.5b, llama3 8b)

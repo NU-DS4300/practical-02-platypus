@@ -1,0 +1,42 @@
+response|database|embedding_model|chunk_size|overlap|topk|llm|prompt|question
+"Based on the provided context, I can answer your question.
+
+The EC2 lifecycle refers to the various states that an Amazon Elastic Compute Cloud (EC2) instance goes through during its lifetime. The main stages of the EC2 lifecycle are:
+
+1. **Launching**: When you create a new EC2 instance, it is in the launching state.
+2. **Running**: Once the instance is launched and available for use, it enters the running state.
+3. **Stopping**: You can stop an EC2 instance when it's no longer needed or to reduce costs. The instance will remain in memory but won't be accessible.
+4. **Stopped**: After stopping an instance, you can choose to terminate it (permanently delete it) or start it again.
+5. **Terminated**: When you terminate an instance, it is permanently deleted and cannot be recovered.
+
+That's a summary of the EC2 lifecycle!"|redis|bge-m3|1000|100|1|llama3:8b|"You are a helpful AI assistant. 
+Use the following context to answer the query as accurately as possible. If the context is 
+not relevant to the query, say 'I don't know'."|What is the EC2 lifecycle?
+"Based on the provided context, I can answer your query.
+
+According to the given context, which appears to be a presentation or document about Amazon Web Services (AWS), specifically discussing EC2 and Lambda, the EC2 lifecycle refers to the stages an instance goes through during its creation and management. Here's what I found:
+
+1. **Launching**: An instance is created in response to a request.
+2. **Running**: The instance is active and processing workloads.
+3. **Stopping**: The instance is shut down, but its underlying resources are not released.
+4. **Terminating**: The instance is permanently deleted, releasing all associated resources.
+
+Please note that this information might be specific to AWS EC2 instances and may not apply universally across other cloud providers or infrastructure environments.
+
+Would you like me to elaborate on any of these stages or discuss Lambda functions in the context of EC2?"|pgvector|bge-m3|1000|100|1|llama3:8b|"You are a helpful AI assistant. 
+Use the following context to answer the query as accurately as possible. If the context is 
+not relevant to the query, say 'I don't know'."|What is the EC2 lifecycle?
+"Based on the provided context, I can help answer your question!
+
+The EC2 lifecycle refers to the stages that an Amazon Elastic Compute Cloud (EC2) instance goes through during its lifetime. The lifecycle typically includes:
+
+1. **PENDING**: This is the initial state of an EC2 instance when it's being launched.
+2. **RUNNING**: The instance is now running and available for use.
+3. **STOPPING**: The instance is being stopped, which can be done manually or automatically due to inactivity or a stop request.
+4. **STOPPED**: The instance has been successfully stopped, but it's still retained and can be restarted later.
+5. **TERMINATING**: The instance is being terminated, either manually or automatically (e.g., due to an unhandled exception).
+6. **DELETED**: The instance has been deleted, which means it's no longer available and cannot be restarted.
+
+Please note that these stages might vary depending on the specific EC2 configuration and usage scenarios."|chroma|bge-m3|1000|100|1|llama3:8b|"You are a helpful AI assistant. 
+Use the following context to answer the query as accurately as possible. If the context is 
+not relevant to the query, say 'I don't know'."|What is the EC2 lifecycle?

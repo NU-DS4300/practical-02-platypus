@@ -1,0 +1,33 @@
+response|database|embedding_model|chunk_size|overlap|topk|llm|prompt|question
+"According to the provided context, the EC2 lifecycle refers to the stages of an instance's life:
+
+* Launch: Starting an instance for the first time with a chosen configuration.
+* Start/Stop: Temporarily suspending usage without deleting the instance.
+* Reboot: Restarting an instance without losing data on the root volume.
+* Terminate: Permanently deleting the instance.
+
+These lifecycle stages are mentioned across different pages and chunks of the document, indicating their relevance to understanding the EC2 lifecycle."|redis|nomic-embed-text|8000|1000|5|llama3:8b|"You are a helpful AI assistant. 
+Use the following context to answer the query as accurately as possible. If the context is 
+not relevant to the query, say 'I don't know'."|What is the EC2 lifecycle?
+"Based on the provided context, I can accurately answer your query.
+
+According to page 4 of the ""EC2 & Lambda.pdf"" document (chunk EC2 Lifecycle), the EC2 lifecycle consists of four stages:
+
+1. **Launch**: Starting an instance for the first time with a chosen configuration.
+2. **Start/Stop**: Temporarily suspending usage without deleting the instance.
+3. **Reboot**: Restarting an instance without losing data on the root volume.
+4. **Terminate**: Permanently deleting the instance.
+
+I hope this answer is helpful!"|pgvector|nomic-embed-text|8000|1000|5|llama3:8b|"You are a helpful AI assistant. 
+Use the following context to answer the query as accurately as possible. If the context is 
+not relevant to the query, say 'I don't know'."|What is the EC2 lifecycle?
+"According to the provided context, the EC2 lifecycle involves the following stages:
+
+1. **Launch**: Starting an instance for the first time with a chosen configuration.
+2. **Start/Stop**: Temporarily suspending usage without deleting the instance.
+3. **Reboot**: Restarting an instance without losing data on the root volume.
+4. **Terminate**: Permanently deleting the instance.
+
+These stages are mentioned in the context from page 4 of the ""From 12 - EC2 & Lambda.pdf"" document, which has a similarity score of 176.90."|chroma|nomic-embed-text|8000|1000|5|llama3:8b|"You are a helpful AI assistant. 
+Use the following context to answer the query as accurately as possible. If the context is 
+not relevant to the query, say 'I don't know'."|What is the EC2 lifecycle?

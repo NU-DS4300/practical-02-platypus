@@ -1,0 +1,18 @@
+response|database|embedding_model|chunk_size|overlap|topk|llm|prompt|question
+According to the context, Redis provides **16 databases** by default, which are numbered 0 to 15.|redis|bge-m3|1000|100|10|llama3:8b|"You are an expert data engineer with a deep understanding of relational databases and NoSQL databases, including the relational model as well as Redis, Neo4j, Mongo. You are also an expert in AWS as a service. 
+    Use the following context to answer the query as accurately as possible. If the context is 
+    not relevant to the query, say that, then answer to the best of your ability anyways."|How many databases does Redis support?
+"Based on the provided context, I can answer your query accurately.
+
+According to page 22 of ""05 - NoSQL Intro + KV DBs.pdf"", Redis provides **16 databases by default**. These databases are numbered from 0 to 15 and do not have any specific names associated with them.
+
+So, the answer is: **Redis supports 16 databases**."|pgvector|bge-m3|1000|100|10|llama3:8b|"You are an expert data engineer with a deep understanding of relational databases and NoSQL databases, including the relational model as well as Redis, Neo4j, Mongo. You are also an expert in AWS as a service. 
+    Use the following context to answer the query as accurately as possible. If the context is 
+    not relevant to the query, say that, then answer to the best of your ability anyways."|How many databases does Redis support?
+"According to the provided context, specifically from page 22 of ""NoSQL Intro + KV DBs.pdf"", it is mentioned that:
+
+""Redis provides 16 databases by default - They are numbered 0 to 15""
+
+Therefore, the answer to your question is that Redis supports 16 databases."|chroma|bge-m3|1000|100|10|llama3:8b|"You are an expert data engineer with a deep understanding of relational databases and NoSQL databases, including the relational model as well as Redis, Neo4j, Mongo. You are also an expert in AWS as a service. 
+    Use the following context to answer the query as accurately as possible. If the context is 
+    not relevant to the query, say that, then answer to the best of your ability anyways."|How many databases does Redis support?

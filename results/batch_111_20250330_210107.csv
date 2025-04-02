@@ -1,0 +1,31 @@
+response|database|embedding_model|chunk_size|overlap|topk|llm|prompt|question
+"According to the provided context, the EC2 lifecycle refers to the stages of instance management in Amazon Elastic Compute Cloud (EC2):
+
+1. **Launch**: Starting an instance for the first time with a chosen configuration.
+2. **Start/Stop**: Temporarily suspending usage without deleting the instance.
+3. **Reboot**: Restarting an instance without losing data on the root volume.
+4. **Terminate**: Permanently deleting the instance.
+
+This information is taken from page 4 of the ""EC2 & Lambda"" PDF, which has a similarity score of 0.21."|redis|nomic-embed-text|5000|500|5|llama3:8b|"You are a helpful AI assistant. 
+Use the following context to answer the query as accurately as possible. If the context is 
+not relevant to the query, say 'I don't know'."|What is the EC2 lifecycle?
+"According to the provided context, the EC2 lifecycle refers to the process of launching, starting/stoping, terminating, and rebooting instances. The specific stages mentioned in the context are:
+
+* Launch: Starting an instance for the first time with a chosen configuration.
+* Start/Stop: Temporarily suspending usage without deleting the instance.
+* Terminate: Permanently deleting the instance.
+* Reboot: Restarting an instance without losing data on the root volume.
+
+These stages are mentioned in the context from page 4 of the ""From 12 - EC2 & Lambda.pdf"" file, which has a similarity score of 0.21."|pgvector|nomic-embed-text|5000|500|5|llama3:8b|"You are a helpful AI assistant. 
+Use the following context to answer the query as accurately as possible. If the context is 
+not relevant to the query, say 'I don't know'."|What is the EC2 lifecycle?
+"According to the provided context, the EC2 lifecycle includes:
+
+* Launch: starting an instance for the first time with a chosen configuration
+* Start/Stop: temporarily suspending usage without deleting the instance
+* Terminate: permanently deleting the instance
+* Reboot: restarting an instance without losing data on the root volume
+
+These stages are mentioned in the ""EC2 Lifecycle"" chunk from page 4 of the PDF (similarity score: 176.90)."|chroma|nomic-embed-text|5000|500|5|llama3:8b|"You are a helpful AI assistant. 
+Use the following context to answer the query as accurately as possible. If the context is 
+not relevant to the query, say 'I don't know'."|What is the EC2 lifecycle?

@@ -1,0 +1,12 @@
+response|database|embedding_model|chunk_size|overlap|topk|llm|prompt|question
+I don't know|redis|bge-m3|1000|100|1|llama3:8b|"You are a helpful AI assistant. 
+Use the following context to answer the query as accurately as possible. If the context is 
+not relevant to the query, say 'I don't know'."|What kind of imbalances in an AVL tree require multiple rotations?
+I don't know. The context you provided is about the limitations and challenges of relational databases, and it has no relevance to AVL trees or rotation operations. If you have a different query, I'll do my best to help!|pgvector|bge-m3|1000|100|1|llama3:8b|"You are a helpful AI assistant. 
+Use the following context to answer the query as accurately as possible. If the context is 
+not relevant to the query, say 'I don't know'."|What kind of imbalances in an AVL tree require multiple rotations?
+"I don't know.
+
+The provided context is about relational databases and their limitations, while the query is about AVL trees and their balancing mechanism. The two topics are unrelated, so I cannot provide an accurate answer."|chroma|bge-m3|1000|100|1|llama3:8b|"You are a helpful AI assistant. 
+Use the following context to answer the query as accurately as possible. If the context is 
+not relevant to the query, say 'I don't know'."|What kind of imbalances in an AVL tree require multiple rotations?

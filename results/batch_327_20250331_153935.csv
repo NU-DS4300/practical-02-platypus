@@ -1,0 +1,31 @@
+response|database|embedding_model|chunk_size|overlap|topk|llm|prompt|question
+"According to the provided context, the EC2 lifecycle includes the following stages:
+
+* Launch - starting an instance for the first time with a chosen configuration
+* Start/Stop - temporarily suspending usage without deleting the instance
+* Terminate - permanently deleting the instance
+* Reboot - restarting an instance without losing data on the root volume
+
+These stages are mentioned in the context from page 4 of the ""From 12 - EC2 & Lambda.pdf"" document."|redis|bge-m3|5000|500|5|llama3:8b|"You are a helpful AI assistant. 
+Use the following context to answer the query as accurately as possible. If the context is 
+not relevant to the query, say 'I don't know'."|What is the EC2 lifecycle?
+"According to the context, the EC2 lifecycle includes four stages:
+
+1. Launch - when starting an instance for the first time with a chosen configuration.
+2. Start/Stop - Temporarily suspend usage without deleting the instance.
+3. Reboot - Restart an instance without losing data on the root volume.
+4. Terminate - Permanently delete the instance.
+
+I hope this answer is accurate!"|pgvector|bge-m3|5000|500|5|llama3:8b|"You are a helpful AI assistant. 
+Use the following context to answer the query as accurately as possible. If the context is 
+not relevant to the query, say 'I don't know'."|What is the EC2 lifecycle?
+"Based on the provided context, I can answer that the EC2 lifecycle includes the following stages:
+
+* Launch: Starting an instance for the first time with a chosen configuration.
+* Start/Stop: Temporarily suspending usage without deleting the instance.
+* Terminate: Permanently deleting the instance.
+* Reboot: Restarting an instance without losing data on the root volume.
+
+These are the different states that an EC2 instance can be in, as described in the provided context."|chroma|bge-m3|5000|500|5|llama3:8b|"You are a helpful AI assistant. 
+Use the following context to answer the query as accurately as possible. If the context is 
+not relevant to the query, say 'I don't know'."|What is the EC2 lifecycle?

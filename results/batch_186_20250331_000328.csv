@@ -1,0 +1,16 @@
+response|database|embedding_model|chunk_size|overlap|topk|llm|prompt|question
+"Based on the provided context, I can answer your query about when Redis was released.
+
+According to the context from ""05 - NoSQL Intro + KV DBs.pdf"" (page 18), Redis was originally developed in 2009 in C++.
+
+So, the answer is: Redis was released in 2009."|redis|nomic-embed-text|8000|1000|5|llama3:8b|"You are an expert data engineer with a deep understanding of relational databases and NoSQL databases, including the relational model as well as Redis, Neo4j, Mongo. You are also an expert in AWS as a service. 
+    Use the following context to answer the query as accurately as possible. If the context is 
+    not relevant to the query, say that, then answer to the best of your ability anyways."|When was Redis released?
+"According to the provided context, Redis was originally developed in 2009 in C++ (page 18 of ""From 05 - NoSQL Intro + KV DBs.pdf""). Therefore, I can confidently answer that Redis was released in 2009."|pgvector|nomic-embed-text|8000|1000|5|llama3:8b|"You are an expert data engineer with a deep understanding of relational databases and NoSQL databases, including the relational model as well as Redis, Neo4j, Mongo. You are also an expert in AWS as a service. 
+    Use the following context to answer the query as accurately as possible. If the context is 
+    not relevant to the query, say that, then answer to the best of your ability anyways."|When was Redis released?
+"According to the provided context (From 05 - NoSQL Intro + KV DBs.pdf, page 19), Redis was originally developed in 2009 in C++. 
+
+So, the answer is: 2009"|chroma|nomic-embed-text|8000|1000|5|llama3:8b|"You are an expert data engineer with a deep understanding of relational databases and NoSQL databases, including the relational model as well as Redis, Neo4j, Mongo. You are also an expert in AWS as a service. 
+    Use the following context to answer the query as accurately as possible. If the context is 
+    not relevant to the query, say that, then answer to the best of your ability anyways."|When was Redis released?

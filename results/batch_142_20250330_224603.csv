@@ -1,0 +1,14 @@
+response|database|embedding_model|chunk_size|overlap|topk|llm|prompt|question
+"According to the provided context, Neo4j's graph query language, Cypher, was created in 2011. This information is mentioned on page 2 of the ""Neo4j.pdf"" file under the chunk titled ""Neo4j - Query Language and Plugins""."|redis|nomic-embed-text|5000|500|10|llama3:8b|"You are an expert data engineer with a deep understanding of relational databases and NoSQL databases, including the relational model as well as Redis, Neo4j, Mongo. You are also an expert in AWS as a service. 
+    Use the following context to answer the query as accurately as possible. If the context is 
+    not relevant to the query, say that, then answer to the best of your ability anyways."|When was neo4j's graph query language invented?
+"According to the provided context, Neo4j's graph query language, Cypher, was created in 2011. This information is mentioned on page 2 of ""From 10 - Neo4j.pdf"" with a similarity score of 0.18."|pgvector|nomic-embed-text|5000|500|10|llama3:8b|"You are an expert data engineer with a deep understanding of relational databases and NoSQL databases, including the relational model as well as Redis, Neo4j, Mongo. You are also an expert in AWS as a service. 
+    Use the following context to answer the query as accurately as possible. If the context is 
+    not relevant to the query, say that, then answer to the best of your ability anyways."|When was neo4j's graph query language invented?
+"Based on the provided context, I can answer your question accurately.
+
+According to the context from ""From 10 - Neo4j.pdf (page 2, chunk Neo4j - Query Language and Plugins - Cypher - Neo4j’s graph query language created in 2011 - Goal: SQL-equivalent language for graph databases - Provides a visual way of matching patterns and relationships (nodes)-[:CONNECT_TO]->(otherNodes) - APOC Plugin - Awesome Procedures on Cypher - Add-on library that provides hundreds of procedures and functions - Graph Data Science Plugin - provides efﬁcient implementations of common graph algorithms (like the ones we talked about yesterday) 3) with similarity 155.36"", Neo4j's graph query language, Cypher, was created in 2011.
+
+So, the answer is: 2011."|chroma|nomic-embed-text|5000|500|10|llama3:8b|"You are an expert data engineer with a deep understanding of relational databases and NoSQL databases, including the relational model as well as Redis, Neo4j, Mongo. You are also an expert in AWS as a service. 
+    Use the following context to answer the query as accurately as possible. If the context is 
+    not relevant to the query, say that, then answer to the best of your ability anyways."|When was neo4j's graph query language invented?

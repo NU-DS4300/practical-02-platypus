@@ -1,0 +1,22 @@
+response|database|embedding_model|chunk_size|overlap|topk|llm|prompt|question
+"Based on the provided context, I can answer your query accurately.
+
+According to page 22 of the ""NoSQL Intro + KV DBs.pdf"" document (context with similarity 0.17), Redis provides 16 databases by default, which are numbered from 0 to 15. Therefore, the answer is:
+
+**Redis supports 16 databases by default.**
+
+Let me know if you have any further questions!"|redis|nomic-embed-text|5000|500|10|llama3:8b|"You are a helpful AI assistant. 
+Use the following context to answer the query as accurately as possible. If the context is 
+not relevant to the query, say 'I don't know'."|How many databases does Redis support?
+"Based on the provided context, I found that from page 22 of ""05 - NoSQL Intro + KV DBs.pdf"", it is mentioned that ""Redis provides 16 databases by default - They are numbered 0 to 15"". Therefore, the answer to your query is:
+
+Redis supports 16 databases by default."|pgvector|nomic-embed-text|5000|500|10|llama3:8b|"You are a helpful AI assistant. 
+Use the following context to answer the query as accurately as possible. If the context is 
+not relevant to the query, say 'I don't know'."|How many databases does Redis support?
+"Based on the provided context, I can answer your query.
+
+According to page 22 of ""From 05 - NoSQL Intro + KV DBs.pdf"", Redis provides 16 databases by default, which are numbered 0 to 15. Therefore, the answer is:
+
+Redis supports 16 databases by default."|chroma|nomic-embed-text|5000|500|10|llama3:8b|"You are a helpful AI assistant. 
+Use the following context to answer the query as accurately as possible. If the context is 
+not relevant to the query, say 'I don't know'."|How many databases does Redis support?

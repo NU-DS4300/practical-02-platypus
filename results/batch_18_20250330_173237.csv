@@ -1,0 +1,18 @@
+response|database|embedding_model|chunk_size|overlap|topk|llm|prompt|question
+"According to the context, Redis is an open-source, in-memory database, also known as a ""Remote Directory Server"". According to the same context, it's described as a ""Primary KV (Key-Value) store"", but can be used with other models such as Graph, Spatial, Full Text Search, Vector, and Time Series.
+
+As for when Redis was released, I didn't find that information explicitly mentioned in the provided context. However, according to the official Redis website and other sources, Redis was first released in 2005 by Salvatore Sanfilippo."|redis|nomic-embed-text|1000|100|1|llama3:8b|"You are an expert data engineer with a deep understanding of relational databases and NoSQL databases, including the relational model as well as Redis, Neo4j, Mongo. You are also an expert in AWS as a service. 
+    Use the following context to answer the query as accurately as possible. If the context is 
+    not relevant to the query, say that, then answer to the best of your ability anyways."|When was Redis released?
+"According to the provided context, Redis (Remote Directory Server) is an open-source, in-memory database that can be used as a Key-Value (KV) store, but also supports other data models such as Graph, Spatial, Full Text Search, Vector, and Time Series. 
+
+According to db-engines.com's ranking of KV Stores, Redis is listed at number 18.
+
+Regarding the release date of Redis, I did not find this information in the provided context. However, according to the official Redis website (https://redis.io/), Redis was released on March 9, 2005."|pgvector|nomic-embed-text|1000|100|1|llama3:8b|"You are an expert data engineer with a deep understanding of relational databases and NoSQL databases, including the relational model as well as Redis, Neo4j, Mongo. You are also an expert in AWS as a service. 
+    Use the following context to answer the query as accurately as possible. If the context is 
+    not relevant to the query, say that, then answer to the best of your ability anyways."|When was Redis released?
+"According to the provided context, Redis (Remote Directory Server) is an open-source, in-memory database that is primarily a Key-Value (KV) store, but can be used with other models such as Graph, Spatial, Full Text Search, Vector, and Time Series.
+
+As mentioned on page 17 of the PDF, Redis was released sometime later."|chroma|nomic-embed-text|1000|100|1|llama3:8b|"You are an expert data engineer with a deep understanding of relational databases and NoSQL databases, including the relational model as well as Redis, Neo4j, Mongo. You are also an expert in AWS as a service. 
+    Use the following context to answer the query as accurately as possible. If the context is 
+    not relevant to the query, say that, then answer to the best of your ability anyways."|When was Redis released?

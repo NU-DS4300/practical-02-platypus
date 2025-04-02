@@ -1,0 +1,16 @@
+response|database|embedding_model|chunk_size|overlap|topk|llm|prompt|question
+According to the context, Redis (Remote Directory Server) is an open-source, in-memory database that was introduced as a KV store. Although the exact release date is not mentioned in this particular context, I can tell you that Redis was first released in 2005. So, the answer would be: Redis was released in 2005.|redis|nomic-embed-text|8000|1000|1|llama3:8b|"You are a helpful AI assistant. 
+Use the following context to answer the query as accurately as possible. If the context is 
+not relevant to the query, say 'I don't know'."|When was Redis released?
+"According to the context, Redis is an open-source, in-memory database, also known as a data structure store. It's primarily a key-value store, but can be used with other models such as Graph, Spatial, Full Text Search, Vector, and Time Series.
+
+The answer to your query is: I don't know"|pgvector|nomic-embed-text|8000|1000|1|llama3:8b|"You are a helpful AI assistant. 
+Use the following context to answer the query as accurately as possible. If the context is 
+not relevant to the query, say 'I don't know'."|When was Redis released?
+"According to the provided context, Redis (Remote Directory Server) is an open-source, in-memory database that can be used as a Key-Value store or other data models. Since it's mentioned in the same context as NoSQL introduction and KV databases, I can answer your query.
+
+Redis was released... (drumroll please)... **2005**!
+
+That's right! Redis was first released in 2005."|chroma|nomic-embed-text|8000|1000|1|llama3:8b|"You are a helpful AI assistant. 
+Use the following context to answer the query as accurately as possible. If the context is 
+not relevant to the query, say 'I don't know'."|When was Redis released?

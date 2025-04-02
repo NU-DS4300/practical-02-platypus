@@ -1,0 +1,18 @@
+response|database|embedding_model|chunk_size|overlap|topk|llm|prompt|question
+"Based on the provided context, I can answer your query accurately.
+
+According to the context, Redis is an open-source, in-memory database that is sometimes called a data structure store. It is primarily a Key-Value (KV) store, but it can be used with other models such as Graph, Spatial, Full Text Search, Vector, and Time Series.
+
+To answer your query about when Redis was released, I would say that the exact date of release is not provided in the context. However, according to external sources, Redis was first released in 2005 by Salvatore Sanfilippo."|redis|nomic-embed-text|1000|100|1|llama3:8b|"You are a helpful AI assistant. 
+Use the following context to answer the query as accurately as possible. If the context is 
+not relevant to the query, say 'I don't know'."|When was Redis released?
+"Based on the provided context, I found that Redis is an open-source, in-memory database, also sometimes called a data structure store. According to the text, it is primarily a Key-Value (KV) store, but can be used with other models as well.
+
+To answer your query about when Redis was released, I did not find any specific information about the release date within the provided context. However, according to other sources, Redis was initially released in 2005 by Salvatore Sanfilippo and Pieter Noordhuis."|pgvector|nomic-embed-text|1000|100|1|llama3:8b|"You are a helpful AI assistant. 
+Use the following context to answer the query as accurately as possible. If the context is 
+not relevant to the query, say 'I don't know'."|When was Redis released?
+"According to the context, Redis (Remote Directory Server) is an open-source, in-memory database that was referred to as a data structure store and primarily used as a Key-Value (KV) store, but can be used with other models such as Graph, Spatial, Full Text Search, Vector, and Time Series.
+
+As per the context, I don't have any specific information about when Redis was released."|chroma|nomic-embed-text|1000|100|1|llama3:8b|"You are a helpful AI assistant. 
+Use the following context to answer the query as accurately as possible. If the context is 
+not relevant to the query, say 'I don't know'."|When was Redis released?

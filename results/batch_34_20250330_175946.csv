@@ -1,0 +1,60 @@
+response|database|embedding_model|chunk_size|overlap|topk|llm|prompt|question
+"<think>
+Okay, so I need to figure out when Neo4j's graph query language was invented. From the context provided, I can see that there are several documents about Neo4j. Let me read through them again.
+
+First document is ""From 10 - Neo4j.pdf (page 2, chunk Neo4j - Query Language and Plugins - Cypher - Neo4j’s graph query language created in 2011 - Goal: SQL-equivalent language for graph databases - Provides a visual way of matching patterns and relationships (nodes)-[:CONNECT_TO]->(otherNodes) - APOC Plugin - Awesome Procedures on Cypher - Add-on library that provides hundreds of procedures and functions - Graph Data Science Plugin - provides efﬁcient implementations of common graph algorithms (like the ones we talked about yesterday) 3) with similarity 0.18""
+
+Hmm, this seems like it's talking about the creation of Cypher in Neo4j. It mentions that Cypher was created in 2011 as a goal for making a SQL-equivalent query language for graph databases.
+
+Another document is ""From 09 - Introduction to Graph Data Model.pdf (page 20, chunk Neo4j - A Graph Database System that supports both transactional and analytical processing of graph-based data - Relatively new class of no-sql DBs - Considered schema optional (one can be imposed) - Supports various types of indexing - ACID compliant - Supports distributed computing - Similar: Microsoft CosmoDB, Amazon Neptune 21) with similarity 0.26""
+
+This document is about the graph data model but doesn't specifically mention when Cypher was invented.
+
+The third document is ""From 10 - Neo4j.pdf (page 0, chunk DS 4300 Neo4j Mark Fontenot, PhD Northeastern University Material referenced from Graph Algorithms - Practical Examples in Apache Spark and Neo4j by Needham and Hodler (O’Reilly Press, 2019)) with similarity 0.30""
+
+This seems to discuss the use of Neo4j for graph algorithms and their implementation, possibly mentioning Apache Spark but again doesn't talk about Cypher or its invention date.
+
+So, focusing back on the first document: it explicitly says that Cypher was created in 2011 as part of the goal for a SQL-equivalent query language. The rest of the documents either discuss different aspects related to Neo4j but don't provide specific dates for when Cypher was introduced.
+</think>
+
+Neo4j's graph query language, known as Cypher, was invented in 2011 as part of the goal to create a SQL-equivalent for graph databases."|redis|nomic-embed-text|1000|100|5|deepseek-r1:1.5b|"You are an expert data engineer with a deep understanding of relational databases and NoSQL databases, including the relational model as well as Redis, Neo4j, Mongo. You are also an expert in AWS as a service. 
+    Use the following context to answer the query as accurately as possible. If the context is 
+    not relevant to the query, say that, then answer to the best of your ability anyways."|When was neo4j's graph query language invented?
+"<think>
+Alright, let me try to figure out when Neo4j's graph query language was invented. So, I'm not entirely sure about the exact timeline, but from what I remember, Neo4j was developed by a company called Ayasml. They must have created some initial work related to graphs. 
+
+I think they started working on this something around 2015. Maybe that's when their graph-related software began to take shape. Since Neo4j is based on the C# programming language, it makes sense that their query language was part of that project.
+
+Wait, let me double-check my facts. I recall seeing some references about Cypher being created by Ayasml in 2015. So maybe that's when they started developing the graph query language. 
+
+Also, looking at the context provided, there were mentions of various plugins and features like APOC and the Graph Data Science plugin. This indicates that Neo4j was indeed moving towards creating a more feature-rich graph query language during that time.
+
+I don't think Ayasml has released their codebase publicly beyond 2015, so it's safe to assume they were working on this project until then. So, putting it all together, I believe the graph query language in Neo4j was invented by Ayasml starting around 2015.
+</think>
+
+Neo4j's graph query language, known as Cypher, was invented by Ayasml starting around 2015.
+
+**Answer:** Cypher was developed by Ayasml beginning in 2015."|pgvector|nomic-embed-text|1000|100|5|deepseek-r1:1.5b|"You are an expert data engineer with a deep understanding of relational databases and NoSQL databases, including the relational model as well as Redis, Neo4j, Mongo. You are also an expert in AWS as a service. 
+    Use the following context to answer the query as accurately as possible. If the context is 
+    not relevant to the query, say that, then answer to the best of your ability anyways."|When was neo4j's graph query language invented?
+"<think>
+Okay, so I need to figure out when Neo4j's graph query language was invented. I'm a bit new to this topic, but I'll try to break it down step by step.
+
+First, the user provided some context about Neo4j and other graph databases like CosmoDB and Neptune. They mentioned that Neo4j introduced Cypher as its graph query language in 2011. That seems important because if that's when it was created, I can probably use that information to answer the question.
+
+But wait, before jumping straight to 2011, maybe I should check if there were any other versions or earlier mentions of Cypher. Sometimes software development timelines can be a bit fuzzy. Maybe Neo4j was around for a few years before they released the query language features.
+
+I also noticed that in another document about graph databases, it mentioned that Neo4j supports various procedures and functions as part of its plugin offerings. The plugins include APOC, CosmoDB, and the Graph Data Science plug-in, each with their own similarity scores. That suggests that Neo4j's graph query language was part of a broader plugin system but wasn't necessarily introduced in 2011.
+
+Looking back at the context provided, I see the introduction to Graph Data Model mentions that Cypher is a key feature of Neo4j, supporting both transactional and analytical processing. The introduction also gives examples from Apache Spark and Neo4j, which align with the information about the query language's support for graph-based data.
+
+So putting it all together: Neo4j introduced Cypher in 2011 as its graph query language feature. It was part of a plugin system but not the core language itself. The introduction also mentions that Neo4j supports various procedures and functions, which are included in the plugins like APOC. However, since the main focus here is on when Cypher was invented, I should stick to the 2011 information.
+
+Wait, could there be any other versions or updates before 2011? Maybe some earlier development or changes that led to the introduction of Cypher in 2011. But from what I know, Neo4j's query language features like Cypher were introduced when it was being developed and started supporting these graph operations.
+
+So my conclusion is that Cypher was invented in 2011 as a part of Neo4j's development to support graph querying.
+</think>
+
+Neo4j's graph query language, known as Cypher, was introduced in the year **2011**. This feature was a key component of Neo4j's design to support both transactional and analytical processing of graph-based data efficiently."|chroma|nomic-embed-text|1000|100|5|deepseek-r1:1.5b|"You are an expert data engineer with a deep understanding of relational databases and NoSQL databases, including the relational model as well as Redis, Neo4j, Mongo. You are also an expert in AWS as a service. 
+    Use the following context to answer the query as accurately as possible. If the context is 
+    not relevant to the query, say that, then answer to the best of your ability anyways."|When was neo4j's graph query language invented?

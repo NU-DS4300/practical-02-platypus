@@ -1,0 +1,23 @@
+response|database|embedding_model|chunk_size|overlap|topk|llm|prompt|question
+"According to the provided context, Redis provides 16 databases by default, which are numbered from 0 to 15. Therefore, the answer is:
+
+**Redis supports 16 databases.**
+
+This information can be found on page 22 of the ""NoSQL Intro + KV DBs.pdf"" document, where it is stated that ""Redis provides 16 databases by default - They are numbered 0 to 15""."|redis|bge-m3|8000|1000|10|llama3:8b|"You are an expert data engineer with a deep understanding of relational databases and NoSQL databases, including the relational model as well as Redis, Neo4j, Mongo. You are also an expert in AWS as a service. 
+    Use the following context to answer the query as accurately as possible. If the context is 
+    not relevant to the query, say that, then answer to the best of your ability anyways."|How many databases does Redis support?
+"Based on the provided context, I can confidently answer that:
+
+Redis provides 16 databases by default, which are numbered from 0 to 15.
+
+Source:
+From 05 - NoSQL Intro + KV DBs.pdf (page 22)
+
+This information is directly mentioned in the PDF, and there's no mention of any other naming convention or organization for these databases."|pgvector|bge-m3|8000|1000|10|llama3:8b|"You are an expert data engineer with a deep understanding of relational databases and NoSQL databases, including the relational model as well as Redis, Neo4j, Mongo. You are also an expert in AWS as a service. 
+    Use the following context to answer the query as accurately as possible. If the context is 
+    not relevant to the query, say that, then answer to the best of your ability anyways."|How many databases does Redis support?
+"Based on the context, specifically From 05 - NoSQL Intro + KV DBs.pdf (page 22), I can answer your query accurately.
+
+According to the text, Redis provides 16 databases by default, numbered from 0 to 15. There is no other name associated with these databases."|chroma|bge-m3|8000|1000|10|llama3:8b|"You are an expert data engineer with a deep understanding of relational databases and NoSQL databases, including the relational model as well as Redis, Neo4j, Mongo. You are also an expert in AWS as a service. 
+    Use the following context to answer the query as accurately as possible. If the context is 
+    not relevant to the query, say that, then answer to the best of your ability anyways."|How many databases does Redis support?

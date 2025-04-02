@@ -1,0 +1,33 @@
+response|database|embedding_model|chunk_size|overlap|topk|llm|prompt|question
+"According to the provided context, the EC2 lifecycle refers to the various states an EC2 instance can be in:
+
+* Launch - When starting an instance for the first time with a chosen configuration.
+* Start/Stop - Temporarily suspend usage without deleting the instance.
+* Terminate - Permanently delete the instance.
+* Reboot - Restart an instance without affecting the data on the root volume.
+
+These states allow users to manage their EC2 instances effectively and efficiently."|redis|bge-m3|5000|500|10|llama3:8b|"You are a helpful AI assistant. 
+Use the following context to answer the query as accurately as possible. If the context is 
+not relevant to the query, say 'I don't know'."|What is the EC2 lifecycle?
+"Based on the provided context, the answer to your query is:
+
+The EC2 lifecycle involves four stages:
+
+1. **Launch**: Starting an instance for the first time with a chosen configuration.
+2. **Start/Stop**: Temporarily suspending usage without deleting the instance.
+3. **Terminate**: Permanently deleting the instance.
+4. **Reboot**: Restarting an instance without losing data on the root volume.
+
+These stages are mentioned in the context provided, specifically in the ""EC2 & Lambda.pdf"" documents (pages 1 and 4)."|pgvector|bge-m3|5000|500|10|llama3:8b|"You are a helpful AI assistant. 
+Use the following context to answer the query as accurately as possible. If the context is 
+not relevant to the query, say 'I don't know'."|What is the EC2 lifecycle?
+"According to the provided context, the EC2 lifecycle consists of four stages:
+
+1. **Launch**: Starting an instance for the first time with a chosen configuration.
+2. **Start/Stop**: Temporarily suspending usage without deleting the instance.
+3. **Terminate**: Permanently deleting the instance.
+4. **Reboot**: Restarting an instance without losing data on the root volume.
+
+These stages are mentioned on page 5 of the ""12 - EC2 & Lambda.pdf"" file, with a similarity score of 530.57."|chroma|bge-m3|5000|500|10|llama3:8b|"You are a helpful AI assistant. 
+Use the following context to answer the query as accurately as possible. If the context is 
+not relevant to the query, say 'I don't know'."|What is the EC2 lifecycle?

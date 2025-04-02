@@ -1,0 +1,31 @@
+response|database|embedding_model|chunk_size|overlap|topk|llm|prompt|question
+"Based on the provided context, I can answer that the EC2 lifecycle refers to the different stages an instance goes through during its lifespan. According to page 4 of the document, these stages are:
+
+1. Launch - starting an instance for the first time with a chosen configuration.
+2. Start/Stop - temporarily suspending usage without deleting the instance.
+3. Terminate - permanently deleting the instance.
+4. Reboot - restarting an instance without affecting data on the root volume.
+
+These lifecycle events allow you to manage and control your EC2 instances as needed."|redis|nomic-embed-text|1000|100|10|llama3:8b|"You are a helpful AI assistant. 
+Use the following context to answer the query as accurately as possible. If the context is 
+not relevant to the query, say 'I don't know'."|What is the EC2 lifecycle?
+"According to the provided context from ""From 12 - EC2 & Lambda.pdf (page 4, chunk EC2 Lifecycle"", the EC2 lifecycle consists of the following stages:
+
+1. Launch - starting an instance for the first time with a chosen configuration.
+2. Start/Stop - temporarily suspending usage without deleting the instance.
+3. Terminate - permanently deleting the instance.
+4. Reboot - restarting an instance without losing data on the root volume.
+
+I don't know if there's any additional information beyond this, but these four stages make up the EC2 lifecycle according to the provided context."|pgvector|nomic-embed-text|1000|100|10|llama3:8b|"You are a helpful AI assistant. 
+Use the following context to answer the query as accurately as possible. If the context is 
+not relevant to the query, say 'I don't know'."|What is the EC2 lifecycle?
+"According to the provided context, the EC2 lifecycle consists of the following stages:
+
+1. Launch - starting an instance for the first time with a chosen configuration
+2. Start/Stop - temporarily suspending usage without deleting the instance
+3. Terminate - permanently deleting the instance
+4. Reboot - restarting an instance without affecting data on the root volume
+
+These stages are mentioned in ""From 12 - EC2 & Lambda.pdf (page 4, chunk EC2 Lifecycle)""."|chroma|nomic-embed-text|1000|100|10|llama3:8b|"You are a helpful AI assistant. 
+Use the following context to answer the query as accurately as possible. If the context is 
+not relevant to the query, say 'I don't know'."|What is the EC2 lifecycle?

@@ -1,0 +1,18 @@
+response|database|embedding_model|chunk_size|overlap|topk|llm|prompt|question
+According to the provided context, Redis was originally developed in 2009 in C++.|redis|bge-m3|5000|500|10|llama3:8b|"You are an expert data engineer with a deep understanding of relational databases and NoSQL databases, including the relational model as well as Redis, Neo4j, Mongo. You are also an expert in AWS as a service. 
+    Use the following context to answer the query as accurately as possible. If the context is 
+    not relevant to the query, say that, then answer to the best of your ability anyways."|When was Redis released?
+According to the context, Redis was originally developed in 2009 in C++.|pgvector|bge-m3|5000|500|10|llama3:8b|"You are an expert data engineer with a deep understanding of relational databases and NoSQL databases, including the relational model as well as Redis, Neo4j, Mongo. You are also an expert in AWS as a service. 
+    Use the following context to answer the query as accurately as possible. If the context is 
+    not relevant to the query, say that, then answer to the best of your ability anyways."|When was Redis released?
+"A query about Redis!
+
+According to the provided context, specifically from ""From 05 - NoSQL Intro + KV DBs.pdf"" (page 17), it is mentioned that:
+
+""Originally developed in 2009 in C++""
+
+So, based on this information, I can confidently answer your question:
+
+Redis was released in 2009!"|chroma|bge-m3|5000|500|10|llama3:8b|"You are an expert data engineer with a deep understanding of relational databases and NoSQL databases, including the relational model as well as Redis, Neo4j, Mongo. You are also an expert in AWS as a service. 
+    Use the following context to answer the query as accurately as possible. If the context is 
+    not relevant to the query, say that, then answer to the best of your ability anyways."|When was Redis released?

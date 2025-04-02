@@ -1,0 +1,34 @@
+response|database|embedding_model|chunk_size|overlap|topk|llm|prompt|question
+"Based on the provided context, specifically from page 20 of ""From 05 - NoSQL Intro + KV DBs.pdf"", the data types supported by Redis for values are:
+
+1. Strings
+2. Lists (linked lists)
+3. Sets (unique unsorted string elements)
+4. Sorted Sets
+5. Hashes (string → string)
+
+These data types can be used as Values in Redis, a NoSQL database that is primarily a Key-Value store."|redis|nomic-embed-text|8000|1000|5|llama3:8b|"You are a helpful AI assistant. 
+Use the following context to answer the query as accurately as possible. If the context is 
+not relevant to the query, say 'I don't know'."|Name the data types supported by Redis for values.
+"According to the provided context, the data types supported by Redis for values are:
+
+* Strings
+* Lists (linked lists)
+* Sets (unique unsorted string elements)
+* Sorted Sets
+* Hashes (string → string)
+
+I hope this answer is accurate! Let me know if you have any further questions."|pgvector|nomic-embed-text|8000|1000|5|llama3:8b|"You are a helpful AI assistant. 
+Use the following context to answer the query as accurately as possible. If the context is 
+not relevant to the query, say 'I don't know'."|Name the data types supported by Redis for values.
+"According to the provided context, Redis supports the following data types for values:
+
+1. Strings
+2. Lists (linked lists)
+3. Sets (unique unsorted string elements)
+4. Sorted Sets
+5. Hashes (string → string)
+
+These are mentioned on page 19 of the ""NoSQL Intro + KV DBs"" PDF."|chroma|nomic-embed-text|8000|1000|5|llama3:8b|"You are a helpful AI assistant. 
+Use the following context to answer the query as accurately as possible. If the context is 
+not relevant to the query, say 'I don't know'."|Name the data types supported by Redis for values.

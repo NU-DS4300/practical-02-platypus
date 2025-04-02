@@ -1,0 +1,48 @@
+response|database|embedding_model|chunk_size|overlap|topk|llm|prompt|question
+"<think>
+Okay, so I need to figure out when Neo4J's graph query language was invented. The user provided some context from three PDFs, but they seem a bit old or not directly related to the question. Let me break this down.
+
+First, looking at the context:
+
+1. Page 2 of Neo4j.pdf (page 2, chunk): It mentions Neo4j is created in 2011. That's clear.
+2. Page 1: Discusses Neo4j as a graph-based no-sql database supporting transactions and analytics. It talks about its features like ACID compliance and distributed computing.
+3. Introduction to Graph Data Model.pdf (page 20): This is the same content from the earlier page, just more detailed perhaps.
+
+The query is asking when Neo4J's graph query language was invented. From the context, the first PDF mentions that Neo4j was created in 2011. That should be the answer because it clearly states the year. The other documents discuss features but don't provide specific dates for the query language invention.
+
+So I think the answer is simply stating that Neo4j's graph query language was invented in 2011.
+</think>
+
+Neo4J, its graph query language, was created in **2011**."|redis|nomic-embed-text|8000|1000|5|deepseek-r1:1.5b|"You are a helpful AI assistant. 
+Use the following context to answer the query as accurately as possible. If the context is 
+not relevant to the query, say 'I don't know'."|When was neo4j's graph query language invented?
+"<think>
+Alright, the user is asking when NeMoJ's graph query language was invented. I need to figure that out based on the context provided.
+
+Looking at the context, the first document (from 10 - Neo4j.pdf) mentions that Neo4j was created in 2011. It also talks about its query language being aimed at making graph databases accessible through SQL. The second document from page 1 of the same document says it supports both transactional and analytical processing, has various indexing, is ACID compliant, and can handle distributed computing.
+
+Another document (from 09 - Introduction to Graph Data Model.pdf) mentions that Neo4j's graph query language was created in 2011. So all these sources are pointing towards NeMoJ being invented in 2011.
+</think>
+
+The query language for Neo4j was invented around **2011**.
+
+Answer: The graph query language for Neo4j was invented in **2011**."|pgvector|nomic-embed-text|8000|1000|5|deepseek-r1:1.5b|"You are a helpful AI assistant. 
+Use the following context to answer the query as accurately as possible. If the context is 
+not relevant to the query, say 'I don't know'."|When was neo4j's graph query language invented?
+"<think>
+Alright, let me try to figure out when Neo4J's graph query language was invented. The user provided some context about the documents and a query they want answered.
+
+Looking at the context, I see that there are several PDF files discussing Neo4J, which is a graph database system. In two of them (page 2 and page 0), the documents talk about the introduction to Neo4j's graph query language. Both mention that it was created in 2011.
+
+In one document from page 1 on page 2, it says ""Cypher - Neo4j’s graph query language created in 2011."" There's a phrase like ""Cypher - ... created in 2011,"" which clearly indicates the year. Similarly, another document with the same start mentions ""Cypher ..."" again confirming the year.
+
+The other documents don't provide specific information about when Neo4J was introduced but mention similar systems like CosmoDB or Neptune from Microsoft and Amazon respectively. The query is about Neo4j's graph query language, so I can rely on the two PDFs that directly reference Cypher in page 1 and Neo4j from page 0.
+
+The user also included a related document, Introduction to Graph Data Model.pdf (page 20), which talks about Cypher being introduced around 2011. That adds more confidence in the year being correct.
+
+So, putting it all together, the query is based on information provided in two PDFs that clearly state Neo4j's Cypher language was created in 2011.
+</think>
+
+The graph query language in Neo4J was invented in 2011."|chroma|nomic-embed-text|8000|1000|5|deepseek-r1:1.5b|"You are a helpful AI assistant. 
+Use the following context to answer the query as accurately as possible. If the context is 
+not relevant to the query, say 'I don't know'."|When was neo4j's graph query language invented?

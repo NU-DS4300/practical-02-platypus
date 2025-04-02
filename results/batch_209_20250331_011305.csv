@@ -1,0 +1,36 @@
+response|database|embedding_model|chunk_size|overlap|topk|llm|prompt|question
+"Based on the provided context, specifically from pages 17-19 of the ""NoSQL Intro + KV DBs.pdf"" and page 3 of the ""Redis + Python.pdf"", I can answer your query as follows:
+
+According to the text, the data types supported by Redis for values are:
+
+1. Strings
+2. Lists (linked lists)
+3. Sets (unique unsorted string elements)
+4. Sorted Sets
+5. Hashes (string → string)
+
+These are the data types mentioned in the context as being supported by Redis for storing values."|redis|nomic-embed-text|8000|1000|10|llama3:8b|"You are a helpful AI assistant. 
+Use the following context to answer the query as accurately as possible. If the context is 
+not relevant to the query, say 'I don't know'."|Name the data types supported by Redis for values.
+"According to the provided context, the data types supported by Redis for Values are:
+
+* Strings
+* Lists (linked lists)
+* Sets (unique unsorted string elements)
+* Sorted Sets
+* Hashes (string → string)
+
+These data types are mentioned in the context from page 19 of the ""NoSQL Intro + KV DBs.pdf"" file."|pgvector|nomic-embed-text|8000|1000|10|llama3:8b|"You are a helpful AI assistant. 
+Use the following context to answer the query as accurately as possible. If the context is 
+not relevant to the query, say 'I don't know'."|Name the data types supported by Redis for values.
+"According to the provided context, Redis supports the following data types for values:
+
+* Strings
+* Lists (linked lists)
+* Sets (unique unsorted string elements)
+* Sorted Sets
+* Hashes (string → string)
+
+These data types are mentioned in the ""Redis Data Types"" chunk on page 19 of the PDF ""From 05 - NoSQL Intro + KV DBs.pdf""."|chroma|nomic-embed-text|8000|1000|10|llama3:8b|"You are a helpful AI assistant. 
+Use the following context to answer the query as accurately as possible. If the context is 
+not relevant to the query, say 'I don't know'."|Name the data types supported by Redis for values.

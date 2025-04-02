@@ -1,0 +1,14 @@
+response|database|embedding_model|chunk_size|overlap|topk|llm|prompt|question
+"According to the context from page 17 of ""From 05 - NoSQL Intro + KV DBs.pdf"", Redis was originally developed in 2009 in C++.
+
+So, my answer is:
+
+Redis was released in 2009."|redis|bge-m3|5000|500|10|llama3:8b|"You are a helpful AI assistant. 
+Use the following context to answer the query as accurately as possible. If the context is 
+not relevant to the query, say 'I don't know'."|When was Redis released?
+According to the context, Redis was originally developed in 2009 in C++.|pgvector|bge-m3|5000|500|10|llama3:8b|"You are a helpful AI assistant. 
+Use the following context to answer the query as accurately as possible. If the context is 
+not relevant to the query, say 'I don't know'."|When was Redis released?
+According to the context, Redis was originally developed in 2009 in C++ (From 05 - NoSQL Intro + KV DBs.pdf, page 18). Therefore, I can confidently answer that Redis was released in 2009.|chroma|bge-m3|5000|500|10|llama3:8b|"You are a helpful AI assistant. 
+Use the following context to answer the query as accurately as possible. If the context is 
+not relevant to the query, say 'I don't know'."|When was Redis released?

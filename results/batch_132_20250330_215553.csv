@@ -1,0 +1,14 @@
+response|database|embedding_model|chunk_size|overlap|topk|llm|prompt|question
+According to the provided context, Redis was originally developed in 2009.|redis|nomic-embed-text|5000|500|10|llama3:8b|"You are a helpful AI assistant. 
+Use the following context to answer the query as accurately as possible. If the context is 
+not relevant to the query, say 'I don't know'."|When was Redis released?
+"Based on the provided context, I found the relevant information in the following chunk:
+
+From 05 - NoSQL Intro + KV DBs.pdf (page 18, chunk Redis - It is considered an in-memory database system, but… - Supports durability of data by: a) essentially saving snapshots to disk at speciﬁc intervals or b) append-only ﬁle which is a journal of changes that can be used for roll-forward if there is a failure - Originally developed in 2009 in C++ - Can be very fast … > 100,000 SET ops / second - Rich collection of commands - Does NOT handle complex data. No secondary indexes. Only supports lookup by Key.
+
+According to this chunk, Redis was originally developed in **2009**."|pgvector|nomic-embed-text|5000|500|10|llama3:8b|"You are a helpful AI assistant. 
+Use the following context to answer the query as accurately as possible. If the context is 
+not relevant to the query, say 'I don't know'."|When was Redis released?
+According to the provided context, Redis was originally developed in 2009 in C++ (page 18, chunk Redis).|chroma|nomic-embed-text|5000|500|10|llama3:8b|"You are a helpful AI assistant. 
+Use the following context to answer the query as accurately as possible. If the context is 
+not relevant to the query, say 'I don't know'."|When was Redis released?

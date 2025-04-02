@@ -13,14 +13,16 @@ def merge_result_files():
     # Read and concatenate all dataframes
     all_dfs = []
     for file in all_files:
-        df = pd.read_csv(os.path.join("results", file))
+        print(f"Reading {file}")
+        df = pd.read_csv(os.path.join("results", file), sep="|")
         all_dfs.append(df)
     
     # Combine into one dataframe
     if all_dfs:
         final_df = pd.concat(all_dfs, ignore_index=True)
-        final_df.to_csv("results.csv", index=False)
+        final_df.to_csv("results.csv", index=False, sep="|")
         print(f"Successfully merged {len(all_dfs)} batch files into results.csv")
 
-if __name__ == "main":
+if __name__ == "__main__":
+    print("Hi")
     merge_result_files()

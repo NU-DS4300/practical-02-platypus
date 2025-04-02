@@ -1,0 +1,38 @@
+response|database|embedding_model|chunk_size|overlap|topk|llm|prompt|question
+"According to the provided context from page 19 of ""NoSQL Intro + KV DBs.pdf"", Redis supports the following data types for values:
+
+1. Strings
+2. Lists (linked lists)
+3. Sets (unique, unsorted string elements)
+4. Sorted Sets
+5. Hashes (string → string)
+
+These are the data types mentioned in the context as supported by Redis for values."|redis|nomic-embed-text|1000|100|1|llama3:8b|"You are an expert data engineer with a deep understanding of relational databases and NoSQL databases, including the relational model as well as Redis, Neo4j, Mongo. You are also an expert in AWS as a service. 
+    Use the following context to answer the query as accurately as possible. If the context is 
+    not relevant to the query, say that, then answer to the best of your ability anyways."|Name the data types supported by Redis for values.
+"According to the context, the data types supported by Redis for values are:
+
+* Strings
+* Lists (linked lists)
+* Sets (unique unsorted string elements)
+* Sorted Sets
+* Hashes (string → string)
+* Geospatial data
+
+These are the value data types mentioned in the Redis Data Types section on page 19 of the provided PDF."|pgvector|nomic-embed-text|1000|100|1|llama3:8b|"You are an expert data engineer with a deep understanding of relational databases and NoSQL databases, including the relational model as well as Redis, Neo4j, Mongo. You are also an expert in AWS as a service. 
+    Use the following context to answer the query as accurately as possible. If the context is 
+    not relevant to the query, say that, then answer to the best of your ability anyways."|Name the data types supported by Redis for values.
+"Based on the provided context, which is a PDF document about NoSQL introduction and key-value databases, specifically Redis, I can answer the query accurately.
+
+According to the document (page 19), the data types supported by Redis for Values are:
+
+1. Strings
+2. Lists (linked lists)
+3. Sets (unique unsorted string elements)
+4. Sorted Sets
+5. Hashes (string → string)
+6. Geospatial data
+
+These value data types can be stored along with their corresponding keys in a Redis database."|chroma|nomic-embed-text|1000|100|1|llama3:8b|"You are an expert data engineer with a deep understanding of relational databases and NoSQL databases, including the relational model as well as Redis, Neo4j, Mongo. You are also an expert in AWS as a service. 
+    Use the following context to answer the query as accurately as possible. If the context is 
+    not relevant to the query, say that, then answer to the best of your ability anyways."|Name the data types supported by Redis for values.

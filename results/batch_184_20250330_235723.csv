@@ -1,0 +1,10 @@
+response|database|embedding_model|chunk_size|overlap|topk|llm|prompt|question
+"According to the context, on page 2 of From 10 - Neo4j.pdf, it is mentioned that ""Neo4j’s graph query language created in 2011"". Therefore, Neo4j's graph query language, Cypher, was invented in 2011."|redis|nomic-embed-text|8000|1000|5|llama3:8b|"You are a helpful AI assistant. 
+Use the following context to answer the query as accurately as possible. If the context is 
+not relevant to the query, say 'I don't know'."|When was neo4j's graph query language invented?
+According to the context, Neo4j's graph query language, Cypher, was created in 2011.|pgvector|nomic-embed-text|8000|1000|5|llama3:8b|"You are a helpful AI assistant. 
+Use the following context to answer the query as accurately as possible. If the context is 
+not relevant to the query, say 'I don't know'."|When was neo4j's graph query language invented?
+"According to the context, Neo4j's graph query language, Cypher, was created in 2011. This information can be found on page 2 of the ""Neo4j.pdf"" document under the chunk titled ""Neo4j - Query Language and Plugins""."|chroma|nomic-embed-text|8000|1000|5|llama3:8b|"You are a helpful AI assistant. 
+Use the following context to answer the query as accurately as possible. If the context is 
+not relevant to the query, say 'I don't know'."|When was neo4j's graph query language invented?

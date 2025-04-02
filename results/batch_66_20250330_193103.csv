@@ -1,0 +1,26 @@
+response|database|embedding_model|chunk_size|overlap|topk|llm|prompt|question
+"A nice and simple question!
+
+According to the provided context, I can answer your query.
+
+From page 18 of the ""NoSQL Intro + KV DBs"" document (chunk Redis - It is considered an in-memory database system, but…), I found the following statement:
+
+""Originally developed in 2009 in C++""
+
+So, according to this information, Redis was released in 2009."|redis|nomic-embed-text|1000|100|10|llama3:8b|"You are an expert data engineer with a deep understanding of relational databases and NoSQL databases, including the relational model as well as Redis, Neo4j, Mongo. You are also an expert in AWS as a service. 
+    Use the following context to answer the query as accurately as possible. If the context is 
+    not relevant to the query, say that, then answer to the best of your ability anyways."|When was Redis released?
+"According to the provided context, Redis was originally developed in 2009 in C++ (from page 18 of ""05 - NoSQL Intro + KV DBs.pdf"" with a similarity score of 0.34). This is the earliest mention of Redis's release date."|pgvector|nomic-embed-text|1000|100|10|llama3:8b|"You are an expert data engineer with a deep understanding of relational databases and NoSQL databases, including the relational model as well as Redis, Neo4j, Mongo. You are also an expert in AWS as a service. 
+    Use the following context to answer the query as accurately as possible. If the context is 
+    not relevant to the query, say that, then answer to the best of your ability anyways."|When was Redis released?
+"A simple question!
+
+According to the context, Redis was originally developed in 2009.
+
+This information can be found on page 18 of the ""05 - NoSQL Intro + KV DBs.pdf"" document, which has a similarity score of 297.70:
+
+""Originally developed in 2009 in C++""
+
+So, there you have it!"|chroma|nomic-embed-text|1000|100|10|llama3:8b|"You are an expert data engineer with a deep understanding of relational databases and NoSQL databases, including the relational model as well as Redis, Neo4j, Mongo. You are also an expert in AWS as a service. 
+    Use the following context to answer the query as accurately as possible. If the context is 
+    not relevant to the query, say that, then answer to the best of your ability anyways."|When was Redis released?

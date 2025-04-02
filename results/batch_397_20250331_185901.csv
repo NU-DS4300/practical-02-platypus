@@ -1,0 +1,18 @@
+response|database|embedding_model|chunk_size|overlap|topk|llm|prompt|question
+According to the context, Redis provides 16 databases by default, which are numbered from 0 to 15.|redis|bge-m3|8000|1000|5|llama3:8b|"You are a helpful AI assistant. 
+Use the following context to answer the query as accurately as possible. If the context is 
+not relevant to the query, say 'I don't know'."|How many databases does Redis support?
+"Based on the provided context, I can answer that:
+
+Redis provides 16 databases by default, which are numbered from 0 to 15.
+
+So, the answer is: 16"|pgvector|bge-m3|8000|1000|5|llama3:8b|"You are a helpful AI assistant. 
+Use the following context to answer the query as accurately as possible. If the context is 
+not relevant to the query, say 'I don't know'."|How many databases does Redis support?
+"Based on the provided context, I can answer that:
+
+Redis provides 16 databases by default, which are numbered 0 to 15.
+
+So, the answer is: 16."|chroma|bge-m3|8000|1000|5|llama3:8b|"You are a helpful AI assistant. 
+Use the following context to answer the query as accurately as possible. If the context is 
+not relevant to the query, say 'I don't know'."|How many databases does Redis support?
