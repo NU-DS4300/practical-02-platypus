@@ -49,7 +49,7 @@ def create_hnsw_index_pg():
 
 def store_embedding_pg(file: str, page: int, chunk: str, embedding: list):
     key = f"{DOC_PREFIX}{file}_page_{page}_chunk_{chunk}"
-    # Upsert embedding into the documents table
+    # Insert embedding into the documents table
     cursor.execute("""
         INSERT INTO documents (key, file, page, chunk, embedding)
         VALUES (%s, %s, %s, %s, %s)

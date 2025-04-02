@@ -39,9 +39,6 @@ def plot_results(data_series, title):
     # Set the y-axis to go from 0 to 100
     plt.ylim(0, 100)
     
-    # Add a horizontal line at y=50 for reference
-    # plt.axhline(y=50, color='gray', linestyle='--', alpha=0.7)
-    
     # Add value labels on top of each bar
     for i, v in enumerate(data_series):
         ax.text(i, v + 2, f'{v:.1f}%', ha='center')
@@ -73,5 +70,13 @@ plot_results(overlap_group, "Correct Responses by Overlap (%)")
 # Group by topk
 topk_group = df.groupby("topk")["Correct"].mean() * 100
 plot_results(topk_group, "Correct Responses by Top-K (%)")
+
+# Group by topk
+topk_group = df.groupby("llm")["Correct"].mean() * 100
+plot_results(topk_group, "Correct Responses by LLM (%)")
+
+# Group by topk
+topk_group = df.groupby("prompt")["Correct"].mean() * 100
+plot_results(topk_group, "Correct Responses by System Prompt (%)")
 
 print("Validation and graphing complete. Results saved to validated_responses.csv.")

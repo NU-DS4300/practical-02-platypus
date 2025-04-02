@@ -5,3 +5,5 @@ pymupdf
 sentence-transformers
 pgvector
 psycopg2
+pandas
+matplotlib

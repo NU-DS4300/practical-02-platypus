@@ -13,7 +13,7 @@ from config import (
 # Initialize Redis client
 redis_client = get_redis_client()
 
-# used to clear the redis vector store
+# Used to clear the redis vector store
 def clear_redis_store():
     print("Clearing existing Redis store...")
     redis_client.flushdb()
@@ -37,7 +37,7 @@ def create_hnsw_index():
     print("Index created successfully.")
 
 
-# store the embedding in Redis
+# Store the embedding in Redis
 def store_embedding_redis(file: str, page: str, chunk: str, embedding: list):
     key = f"{DOC_PREFIX}:{file}_page_{page}_chunk_{chunk}"
     redis_client.hset(
